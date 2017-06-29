@@ -1,0 +1,27 @@
+{
+  "chordCatalog":
+	[
+		[{
+        "function":"tonic",
+        "subs":[[0,"maj"],[9,"min"]],
+        "extensions":[]
+		}],
+    [{
+        "function":"dominant",
+        "subs":[[5,"maj"],[2,"min"]],
+        "extensions":[]
+    }]
+
+	],
+    "progression":[
+                   {"options":[0],"beats":4},
+                   {"options":[1],"beats":4},
+                   {"options":[0],"beats":4},
+                   {"options":[0,1],"beats":4},
+                   {"options":[0],"beats":4},
+                   {"options":[0,1],"beats":4},
+                   {"options":[0],"beats":4},
+                   {"options":[0,1],"beats":4}
+                   
+                   ]	
+}
