@@ -14,6 +14,8 @@ extension MainDisplay:PlaybackPaneDelegate {
     
     func playSequence() {
         
+        currentAppState.voiceStates = [false,true,true,true,true]
+         
         currentMeasure = -1
         
         midiManager.sequencer.stop()
@@ -33,6 +35,7 @@ extension MainDisplay:PlaybackPaneDelegate {
                 
                 let playbackPanel = self.currentViewController as?PlaybackPane
                 playbackPanel!.setSequenceLength(newLength: (progression?.chordProgression.count)!)
+           
             }
         } else {
             startup = false
@@ -105,7 +108,7 @@ extension MainDisplay:PlaybackPaneDelegate {
         
         var endLoop = position
         
-        if ( endLoop  > currentAppState.loopSettings[1]) {
+        if ( endLoop < currentAppState.loopSettings[0]) {
             endLoop = currentAppState.loopSettings[1]
         }
         
@@ -150,14 +153,20 @@ extension MainDisplay: MixPaneDelegate {
 extension MainDisplay: AnswerPaneDelegate {
     func didProvideAnswer(_ sender:AnswerPane) {
         currentAnswer = sender.theAnswer
-        measureStates[selectedIndexPath!.row].display = currentAnswer
         
-        if (measureStates[selectedIndexPath!.row].rightAnswer == currentAnswer) {
-            measureStates[selectedIndexPath!.row].answerStatus = .correct
-        } else {
-            measureStates[selectedIndexPath!.row].answerStatus = .wrong
+        if let measureSelected = selectedIndexPath?.row {
+            
+            measureStates[measureSelected].display = currentAnswer
+            
+            if (measureStates[measureSelected].rightAnswer == currentAnswer) {
+                measureStates[measureSelected].answerStatus = .correct
+            } else {
+                measureStates[measureSelected].answerStatus = .wrong
+            }
+            collectionView.reloadItems(at: [selectedIndexPath!])
+            
         }
-        collectionView.reloadItems(at: [selectedIndexPath!])
+       
     }
 }
 

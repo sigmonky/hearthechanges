@@ -1,10 +1,3 @@
-//
-//  ViewControllerSwift.swift
-//  ComponentSwitch
-//
-//  Created by Mike Woelmer on 8/27/15.
-//  Copyright (c) 2015 atomicobject. All rights reserved.
-//
 
 import UIKit
 import MIKMIDI
@@ -23,6 +16,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
     var lessonName:String?
     var sequenceTemplate:SequenceTemplate?
     var startup:Bool = true
+    var lessonInstructions:String = "No instructions available"
 
     
     
@@ -112,6 +106,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
         
         let thePlaybackPane = self.currentViewController as! (PlaybackPane)
         thePlaybackPane.sequenceLength = (progression?.chordProgression.count)!
+        thePlaybackPane.playButtonTitle = "New Sequence"
         thePlaybackPane.setLoopSettings(appState: currentAppState)
         
     }
@@ -135,9 +130,17 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
         updateControlPane("AnswerPane")
     }
   
-    @IBAction func displayInfo(_ sender: Any) {
+    @IBAction func displayInfo(_ sender: UIButton) {
         
-         updateControlPane("InfoView")
+        manageButtonViewStatus(sender)
+        
+        updateControlPane("InfoView")
+        
+        let theInfoPane = self.currentViewController as! (InfoViewController)
+        
+        theInfoPane.infoText = self.lessonInstructions
+        
+        theInfoPane.updateInfo()
  
     }
     
@@ -275,6 +278,7 @@ extension MainDisplay {
                     
                     sequenceTemplate?.homeKey = 60
                     progression = sequenceTemplate?.generateProgression()
+                    lessonInstructions = (sequenceTemplate?.instructions)!
                     updateMeasureStates()
                     
                 } else {

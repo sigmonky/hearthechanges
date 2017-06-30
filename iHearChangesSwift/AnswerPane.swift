@@ -14,17 +14,22 @@ protocol AnswerPaneDelegate: class {
 
 class AnswerPane: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var chordQualityTable: UITableView!
+    @IBOutlet weak var accidentalButton: UIButton!
+    
     weak var delegate:AnswerPaneDelegate?
     
+   
     var theAnswer:String = ""
     var theAccidental:String = ""
     
     var items: [String] = [
-        "M", "M6", "M7","M9","M11","M13",
-        "m","m6","m7","7","7b9","7#9","&7sus","7#11",
-        "dim","dim7",
-        "m7b5",
-        "aug"]
+        "M","m","7","dim", "aug",
+        "M6", "M7","M9","M11","M13",
+        "m6","m7","7","7b9","7#9","7sus","7#11",
+        "dim7",
+        "m7b5"
+    ]
     
     let selectedCellBGColor = UIColor.yellow
     let selectedCellTextColor = UIColor.blue
@@ -39,7 +44,18 @@ class AnswerPane: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         theAnswer = theAccidental + theAnswer
         delegate?.didProvideAnswer(self)
+        
         theAccidental = ""
+        accidentalButton.backgroundColor = UIColor.black
+        accidentalButton.setTitleColor(UIColor.white, for: UIControlState())
+
+        if let rootButton = currentSelectedRoot {
+            rootButton.backgroundColor = UIColor.black
+            rootButton.setTitleColor(UIColor.white, for: UIControlState())
+        }
+        
+        chordQualityTable.reloadData()
+        
     }
     
     @IBAction func selectRoot(_ sender: UIButton) {
@@ -67,8 +83,18 @@ class AnswerPane: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     @IBAction func selectAccidental(_ sender: UIButton) {
+       
+        if sender.backgroundColor == UIColor.yellow {
+            sender.backgroundColor = UIColor.black
+            sender.setTitleColor(UIColor.white, for: UIControlState())
+            theAccidental = ""
+        } else {
+            sender.backgroundColor = UIColor.yellow
+            sender.setTitleColor(UIColor.blue, for: UIControlState())
+            theAccidental = "b"
+            
+        }
         
-        theAccidental = "b"
     }
   
 

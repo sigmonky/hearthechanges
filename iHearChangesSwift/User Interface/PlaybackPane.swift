@@ -26,7 +26,9 @@ class PlaybackPane: UIViewController {
     var loopStart = 0
     var loopEnd = 0
     var sequenceLength = 0
+    var playButtonTitle:String = "Play"
 
+    @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var loopFromMeasure: UILabel!
     @IBOutlet weak var loopToMeasure: UILabel!
     
@@ -38,6 +40,12 @@ class PlaybackPane: UIViewController {
         
         loopFromMeasure.text = "1"
         loopToMeasure.text = String(sequenceLength)
+       
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+         super.viewDidAppear(animated)
+         playButton.setTitle(playButtonTitle, for:UIControlState.normal)
     }
     
     
@@ -53,7 +61,7 @@ class PlaybackPane: UIViewController {
             loopFromSlider.value = loopToSlider.value
         }
         
-        var calculatedMeasure = Int(loopFromSlider.value * Float(sequenceLength))// + 1
+        var calculatedMeasure = Int(loopFromSlider.value * Float(sequenceLength)) + 1
         
         if calculatedMeasure > sequenceLength {
             calculatedMeasure -= 1

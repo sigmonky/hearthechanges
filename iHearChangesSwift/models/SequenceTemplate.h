@@ -15,6 +15,7 @@
     @property (nonatomic,strong) NSMutableArray *progression;
     @property (nonatomic,strong) Progression *renderedProgression;
     @property (nonatomic,assign) int16_t homeKey;
+    @property (nonatomic,strong) NSString* instructions;
 
     - (BOOL)loadTemplate:(NSString *)filePath;
     - (Progression *) generateProgression;

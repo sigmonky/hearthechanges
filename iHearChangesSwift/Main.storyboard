@@ -325,6 +325,8 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="500"/>
                     <connections>
+                        <outlet property="accidentalButton" destination="9rl-AT-wJO" id="mYo-Fl-eKM"/>
+                        <outlet property="chordQualityTable" destination="N9u-9N-fqv" id="kTo-aL-wsU"/>
                         <outlet property="chordTypes" destination="N9u-9N-fqv" id="F6n-La-fId"/>
                     </connections>
                 </viewController>
@@ -445,6 +447,7 @@
                         <outlet property="loopFromSlider" destination="IBc-PH-bMJ" id="n3K-1d-Ddw"/>
                         <outlet property="loopToMeasure" destination="7uB-Q8-oKw" id="bJ7-zs-UqO"/>
                         <outlet property="loopToSlider" destination="opL-Zd-4hD" id="JIt-qb-Gff"/>
+                        <outlet property="playButton" destination="SDu-GD-rni" id="aRa-lP-63Y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bs-Y7-5f2" userLabel="First Responder" sceneMemberID="firstResponder"/>

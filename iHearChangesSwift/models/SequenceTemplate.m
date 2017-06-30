@@ -144,6 +144,11 @@
     }
     self.chordCatalog = [chordCatalog copy];
     self.progression = result[@"progression"];
+    if (result[@"instructions"]) {
+        self.instructions = result[@"instructions"];
+    } else {
+        self.instructions = @"No instructions currently available";
+    }
     
     return YES;
 
