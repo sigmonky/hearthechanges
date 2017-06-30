@@ -95,4 +95,17 @@ let transpose = {$0 + offset}
 let renderedChord = theChord.members().map(transpose)
 print(renderedChord)
 
+/* do {
+ try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+ print("AVAudioSession Category Playback OK")
+ do {
+ try AVAudioSession.sharedInstance().setActive(true)
+ print("AVAudioSession is Active")
+ } catch let error as NSError {
+ print(error.localizedDescription)
+ }
+ } catch let error as NSError {
+ print(error.localizedDescription)
+ }*/
+
 

@@ -32,7 +32,7 @@
             ChordFunction *chordFunction = self.chordCatalog[chordCatalogIndex][index];
             int_fast16_t subSelected = (arc4random() % [chordFunction.subs count]);
             NSArray *currentSub = chordFunction.subs[subSelected];
-            NSInteger scaleDegree = currentSub[0];
+           // NSInteger scaleDegree = currentSub[0];
             [theProgression addObject:@{@"chord":chordFunction.function,
                                         @"beats":progressionStep[@"beats"],
                                         @"scaleDegree":currentSub[0],

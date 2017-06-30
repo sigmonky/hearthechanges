@@ -27,10 +27,6 @@ class PlaybackPane: UIViewController {
     var loopEnd = 0
     var sequenceLength = 0
 
-    //@IBOutlet weak var increaseStartLoop: UIButton!
-    
-    
-    
     @IBOutlet weak var loopFromMeasure: UILabel!
     @IBOutlet weak var loopToMeasure: UILabel!
     
@@ -57,14 +53,19 @@ class PlaybackPane: UIViewController {
             loopFromSlider.value = loopToSlider.value
         }
         
-        var calculatedMeasure = Int(loopFromSlider.value * Float(sequenceLength)) + 1
+        var calculatedMeasure = Int(loopFromSlider.value * Float(sequenceLength))// + 1
         
         if calculatedMeasure > sequenceLength {
             calculatedMeasure -= 1
         }
+        
+        if calculatedMeasure == 0 {
+            calculatedMeasure = 1
+        }
        
         loopFromMeasure.text = String(calculatedMeasure)
         delegate?.setStartLoop(loopPosition: (sender as! UISlider).value)
+        
         
     }
     
@@ -81,11 +82,18 @@ class PlaybackPane: UIViewController {
             calculatedMeasure -= 1
         }
         
+        if calculatedMeasure == 0 {
+            calculatedMeasure = 1
+        }
+        
         loopToMeasure.text = String(calculatedMeasure)
         
-        delegate?.setEndLoop(loopPosition: (sender as! UISlider).value)
+       delegate?.setEndLoop(loopPosition: (sender as! UISlider).value)
+        
     }
     @IBAction func playSequence(_ sender: Any) {
+        
+        (sender as! UIButton).setTitle("New Progression", for:UIControlState.normal)
         delegate?.playSequence()
     }
     

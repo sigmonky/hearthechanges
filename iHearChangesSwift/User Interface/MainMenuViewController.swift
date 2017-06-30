@@ -92,7 +92,7 @@ class MainMenuViewController: UITableViewController {
         
         sections = [
             Section(name: "Basics 1: Major Key", items:basic1, collapsed: true),
-            Section(name: "Intermediate 1: Major Key Substitutions", items:intermed1, collapsed: true),
+            Section(name: "Intermediate 1: Major Key", items:intermed1, collapsed: true),
             Section(name: "Intermediate 2: Folk Songs with Substitutions", items:intermed2, collapsed: true),
             Section(name: "Advanced 1: Jazz Standards", items:advanced1, collapsed: true)
         ]

@@ -7,75 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE08F88B1E5E4DE800E83C61 /* afternooninparis.json in Resources */ = {isa = PBXBuildFile; fileRef = BE08F88A1E5E4DE800E83C61 /* afternooninparis.json */; };
-		BE08F88E1E5E56F700E83C61 /* aintmisbehavin.json in Resources */ = {isa = PBXBuildFile; fileRef = BE08F88D1E5E56F700E83C61 /* aintmisbehavin.json */; };
-		BE1E704C1E5FA02E0087A439 /* aliceinwonderland.json in Resources */ = {isa = PBXBuildFile; fileRef = BE1E704B1E5FA02E0087A439 /* aliceinwonderland.json */; };
-		BE1E70501E609CFB0087A439 /* allofme.json in Resources */ = {isa = PBXBuildFile; fileRef = BE1E704D1E609CFB0087A439 /* allofme.json */; };
-		BE1E70511E609CFB0087A439 /* allthethingsyouare.json in Resources */ = {isa = PBXBuildFile; fileRef = BE1E704E1E609CFB0087A439 /* allthethingsyouare.json */; };
-		BE1E70521E609CFB0087A439 /* angeleyes.json in Resources */ = {isa = PBXBuildFile; fileRef = BE1E704F1E609CFB0087A439 /* angeleyes.json */; };
-		BE3368741E008E2700F4295B /* I-IV-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3368711E008E2700F4295B /* I-IV-1subs.json */; };
-		BE3368751E008E2700F4295B /* I-IV-V-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3368721E008E2700F4295B /* I-IV-V-1subs.json */; };
-		BE3368761E008E2700F4295B /* I-V-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3368731E008E2700F4295B /* I-V-1subs.json */; };
-		BE5910661E391AD3000E234D /* atrain.json in Resources */ = {isa = PBXBuildFile; fileRef = BE5910651E391AD3000E234D /* atrain.json */; };
-		BE5AA8DE1F01D05700DAD6F2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5AA8DD1F01D05700DAD6F2 /* InfoViewController.swift */; };
 		BE6C6C1C1F054BE100EBF61A /* rhodes_73.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = BE6C6C1B1F054BE100EBF61A /* rhodes_73.sf2 */; };
-		BE86A15B1E526A8B0086CF1A /* bricks.json in Resources */ = {isa = PBXBuildFile; fileRef = BE86A15A1E526A8B0086CF1A /* bricks.json */; };
 		D329D9FE1DDF7A9C0080D74F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329D9FD1DDF7A9C0080D74F /* AppDelegate.swift */; };
 		D329DA051DDF7A9C0080D74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D329DA041DDF7A9C0080D74F /* Assets.xcassets */; };
 		D329DA081DDF7A9C0080D74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329DA061DDF7A9C0080D74F /* LaunchScreen.storyboard */; };
 		D329DA131DDF7A9C0080D74F /* iHearChangesSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA121DDF7A9C0080D74F /* iHearChangesSwiftTests.swift */; };
 		D329DA1E1DDF7A9C0080D74F /* iHearChangesSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA1D1DDF7A9C0080D74F /* iHearChangesSwiftUITests.swift */; };
-		D329DA4F1DDF7E020080D74F /* cadences1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA2F1DDF7E010080D74F /* cadences1.json */; };
-		D329DA501DDF7E020080D74F /* cadences2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA301DDF7E010080D74F /* cadences2.json */; };
-		D329DA511DDF7E020080D74F /* cadences3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA311DDF7E010080D74F /* cadences3.json */; };
-		D329DA521DDF7E020080D74F /* I-IV-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA321DDF7E010080D74F /* I-IV-1.json */; };
-		D329DA531DDF7E020080D74F /* I-IV-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA331DDF7E010080D74F /* I-IV-2.json */; };
-		D329DA541DDF7E020080D74F /* I-IV-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA341DDF7E010080D74F /* I-IV-3.json */; };
-		D329DA551DDF7E020080D74F /* I-IV-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA351DDF7E010080D74F /* I-IV-4.json */; };
-		D329DA561DDF7E020080D74F /* I-IV-V-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA361DDF7E010080D74F /* I-IV-V-1.json */; };
-		D329DA571DDF7E020080D74F /* I-IV-V-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA371DDF7E010080D74F /* I-IV-V-2.json */; };
-		D329DA581DDF7E020080D74F /* I-IV-V-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA381DDF7E020080D74F /* I-IV-V-3.json */; };
-		D329DA591DDF7E020080D74F /* I-IV-V-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA391DDF7E020080D74F /* I-IV-V-4.json */; };
-		D329DA5A1DDF7E020080D74F /* I-IV-V-5.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3A1DDF7E020080D74F /* I-IV-V-5.json */; };
-		D329DA5B1DDF7E020080D74F /* I-IV-V-6.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3B1DDF7E020080D74F /* I-IV-V-6.json */; };
-		D329DA5C1DDF7E020080D74F /* I-IV-V-7.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3C1DDF7E020080D74F /* I-IV-V-7.json */; };
-		D329DA5D1DDF7E020080D74F /* I-IV-V-8.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3D1DDF7E020080D74F /* I-IV-V-8.json */; };
-		D329DA5E1DDF7E020080D74F /* I-IV-V-9.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3E1DDF7E020080D74F /* I-IV-V-9.json */; };
-		D329DA5F1DDF7E020080D74F /* I-V-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA3F1DDF7E020080D74F /* I-V-1.json */; };
-		D329DA601DDF7E020080D74F /* I-V-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA401DDF7E020080D74F /* I-V-2.json */; };
-		D329DA611DDF7E020080D74F /* I-V-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA411DDF7E020080D74F /* I-V-3.json */; };
-		D329DA621DDF7E020080D74F /* I-V-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA421DDF7E020080D74F /* I-V-4.json */; };
-		D329DA631DDF7E020080D74F /* keymodulations-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA431DDF7E020080D74F /* keymodulations-1.json */; };
-		D329DA641DDF7E020080D74F /* keymodulations-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA441DDF7E020080D74F /* keymodulations-2.json */; };
-		D329DA651DDF7E020080D74F /* keymodulations-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA451DDF7E020080D74F /* keymodulations-3.json */; };
-		D329DA661DDF7E020080D74F /* keymodulations-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA461DDF7E020080D74F /* keymodulations-4.json */; };
-		D329DA671DDF7E020080D74F /* minorfolk.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA471DDF7E020080D74F /* minorfolk.json */; };
-		D329DA681DDF7E020080D74F /* nomorecane.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA481DDF7E020080D74F /* nomorecane.json */; };
-		D329DA691DDF7E020080D74F /* pullbacks.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA491DDF7E020080D74F /* pullbacks.json */; };
-		D329DA6A1DDF7E020080D74F /* secondaryDominants1.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA4A1DDF7E020080D74F /* secondaryDominants1.json */; };
-		D329DA6B1DDF7E020080D74F /* secondaryDominants2.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA4B1DDF7E020080D74F /* secondaryDominants2.json */; };
-		D329DA6C1DDF7E020080D74F /* secondaryDominants3.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA4C1DDF7E020080D74F /* secondaryDominants3.json */; };
-		D329DA6D1DDF7E020080D74F /* secondaryDominants4.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA4D1DDF7E020080D74F /* secondaryDominants4.json */; };
-		D329DA6E1DDF7E020080D74F /* template.json in Resources */ = {isa = PBXBuildFile; fileRef = D329DA4E1DDF7E020080D74F /* template.json */; };
-		D329DA7F1DDF7E810080D74F /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA721DDF7E810080D74F /* Chord.m */; };
-		D329DA801DDF7E810080D74F /* ChordFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA741DDF7E810080D74F /* ChordFunction.m */; };
-		D329DA811DDF7E810080D74F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA761DDF7E810080D74F /* Player.m */; };
-		D329DA821DDF7E810080D74F /* Progression.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA781DDF7E810080D74F /* Progression.m */; };
-		D329DA831DDF7E810080D74F /* SequenceTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA7A1DDF7E810080D74F /* SequenceTemplate.m */; };
-		D329DA841DDF7E810080D74F /* Timing.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA7C1DDF7E810080D74F /* Timing.m */; };
-		D329DA851DDF7E810080D74F /* Tune.m in Sources */ = {isa = PBXBuildFile; fileRef = D329DA7E1DDF7E810080D74F /* Tune.m */; };
-		D329DA8F1DDF7F860080D74F /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA861DDF7F860080D74F /* CustomSlider.swift */; };
-		D329DA901DDF7F860080D74F /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA871DDF7F860080D74F /* RangeSlider.swift */; };
-		D329DA911DDF7F860080D74F /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA881DDF7F860080D74F /* MainDisplay.swift */; };
 		D329DA921DDF7F860080D74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329DA891DDF7F860080D74F /* Main.storyboard */; };
 		D329DA931DDF7F860080D74F /* AnswerPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA8A1DDF7F860080D74F /* AnswerPane.swift */; };
-		D329DA941DDF7F860080D74F /* PlaybackPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA8B1DDF7F860080D74F /* PlaybackPane.swift */; };
-		D329DA951DDF7F860080D74F /* MixPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA8C1DDF7F860080D74F /* MixPane.swift */; };
-		D329DA961DDF7F860080D74F /* MeasureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA8D1DDF7F860080D74F /* MeasureCell.swift */; };
-		D329DA971DDF7F860080D74F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329DA8E1DDF7F860080D74F /* CheckBox.swift */; };
-		D3E539331DFD9CB0008192C6 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E539321DFD9CB0008192C6 /* MainMenuViewController.swift */; };
-		D3E539351DFD9D98008192C6 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E539341DFD9D98008192C6 /* CollapsibleTableViewHeader.swift */; };
-		D3E539371DFD9F2E008192C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E539361DFD9F2E008192C6 /* Extensions.swift */; };
+		D38D4AED1F069ABE006EF062 /* MidiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AEC1F069ABE006EF062 /* MidiManager.swift */; };
+		D38D4B041F06BBAB006EF062 /* AppStatusModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AF51F06BBAB006EF062 /* AppStatusModels.swift */; };
+		D38D4B051F06BBAB006EF062 /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AF71F06BBAB006EF062 /* Chord.m */; };
+		D38D4B061F06BBAB006EF062 /* ChordFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AF91F06BBAB006EF062 /* ChordFunction.m */; };
+		D38D4B071F06BBAB006EF062 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AFB1F06BBAB006EF062 /* Player.m */; };
+		D38D4B081F06BBAB006EF062 /* Progression.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AFD1F06BBAB006EF062 /* Progression.m */; };
+		D38D4B091F06BBAB006EF062 /* SequenceTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4AFF1F06BBAB006EF062 /* SequenceTemplate.m */; };
+		D38D4B0A1F06BBAB006EF062 /* Timing.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B011F06BBAB006EF062 /* Timing.m */; };
+		D38D4B0B1F06BBAB006EF062 /* Tune.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B031F06BBAB006EF062 /* Tune.m */; };
+		D38D4B1A1F06BBE6006EF062 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B0C1F06BBE6006EF062 /* CheckBox.swift */; };
+		D38D4B1B1F06BBE6006EF062 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B0D1F06BBE6006EF062 /* CollapsibleTableViewHeader.swift */; };
+		D38D4B1C1F06BBE6006EF062 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B0E1F06BBE6006EF062 /* CustomSlider.swift */; };
+		D38D4B1D1F06BBE6006EF062 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B0F1F06BBE6006EF062 /* Extensions.swift */; };
+		D38D4B1E1F06BBE6006EF062 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B101F06BBE6006EF062 /* InfoViewController.swift */; };
+		D38D4B1F1F06BBE6006EF062 /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B111F06BBE6006EF062 /* MainDisplay.swift */; };
+		D38D4B201F06BBE6006EF062 /* MainDisplayCollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B121F06BBE6006EF062 /* MainDisplayCollectionViewExtensions.swift */; };
+		D38D4B211F06BBE6006EF062 /* MainDisplaySupportPaneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B131F06BBE6006EF062 /* MainDisplaySupportPaneExtensions.swift */; };
+		D38D4B221F06BBE6006EF062 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B141F06BBE6006EF062 /* MainMenuViewController.swift */; };
+		D38D4B231F06BBE6006EF062 /* MeasureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B151F06BBE6006EF062 /* MeasureCell.swift */; };
+		D38D4B241F06BBE6006EF062 /* MixPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B161F06BBE6006EF062 /* MixPane.swift */; };
+		D38D4B251F06BBE6006EF062 /* PlaybackPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B171F06BBE6006EF062 /* PlaybackPane.swift */; };
+		D38D4B271F06BBE6006EF062 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D4B191F06BBE6006EF062 /* RangeSlider.swift */; };
+		D38D4B3A1F06BD75006EF062 /* I-IV-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B291F06BD75006EF062 /* I-IV-1.json */; };
+		D38D4B3B1F06BD75006EF062 /* I-IV-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2A1F06BD75006EF062 /* I-IV-2.json */; };
+		D38D4B3C1F06BD75006EF062 /* I-IV-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2B1F06BD75006EF062 /* I-IV-3.json */; };
+		D38D4B3D1F06BD75006EF062 /* I-IV-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2C1F06BD75006EF062 /* I-IV-4.json */; };
+		D38D4B3E1F06BD75006EF062 /* I-IV-V-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2D1F06BD75006EF062 /* I-IV-V-1.json */; };
+		D38D4B3F1F06BD75006EF062 /* I-IV-V-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2E1F06BD75006EF062 /* I-IV-V-2.json */; };
+		D38D4B401F06BD75006EF062 /* I-IV-V-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B2F1F06BD75006EF062 /* I-IV-V-3.json */; };
+		D38D4B411F06BD75006EF062 /* I-IV-V-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B301F06BD75006EF062 /* I-IV-V-4.json */; };
+		D38D4B421F06BD75006EF062 /* I-IV-V-5.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B311F06BD75006EF062 /* I-IV-V-5.json */; };
+		D38D4B431F06BD75006EF062 /* I-IV-V-6.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B321F06BD75006EF062 /* I-IV-V-6.json */; };
+		D38D4B441F06BD75006EF062 /* I-IV-V-7.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B331F06BD75006EF062 /* I-IV-V-7.json */; };
+		D38D4B451F06BD75006EF062 /* I-IV-V-8.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B341F06BD75006EF062 /* I-IV-V-8.json */; };
+		D38D4B461F06BD75006EF062 /* I-IV-V-9.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B351F06BD75006EF062 /* I-IV-V-9.json */; };
+		D38D4B471F06BD75006EF062 /* I-V-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B361F06BD75006EF062 /* I-V-1.json */; };
+		D38D4B481F06BD75006EF062 /* I-V-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B371F06BD75006EF062 /* I-V-2.json */; };
+		D38D4B491F06BD75006EF062 /* I-V-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B381F06BD75006EF062 /* I-V-3.json */; };
+		D38D4B4A1F06BD75006EF062 /* I-V-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B391F06BD75006EF062 /* I-V-4.json */; };
+		D38D4B4F1F06BD9A006EF062 /* I-IV-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B4C1F06BD9A006EF062 /* I-IV-1subs.json */; };
+		D38D4B501F06BD9A006EF062 /* I-IV-V-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B4D1F06BD9A006EF062 /* I-IV-V-1subs.json */; };
+		D38D4B511F06BD9A006EF062 /* I-V-1subs.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B4E1F06BD9A006EF062 /* I-V-1subs.json */; };
+		D38D4B571F06BDCC006EF062 /* secondaryDominants1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B531F06BDCC006EF062 /* secondaryDominants1.json */; };
+		D38D4B581F06BDCC006EF062 /* secondaryDominants2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B541F06BDCC006EF062 /* secondaryDominants2.json */; };
+		D38D4B591F06BDCC006EF062 /* secondaryDominants3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B551F06BDCC006EF062 /* secondaryDominants3.json */; };
+		D38D4B5A1F06BDCC006EF062 /* secondaryDominants4.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B561F06BDCC006EF062 /* secondaryDominants4.json */; };
+		D38D4B5F1F06BE02006EF062 /* cadences1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B5C1F06BE02006EF062 /* cadences1.json */; };
+		D38D4B601F06BE02006EF062 /* cadences2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B5D1F06BE02006EF062 /* cadences2.json */; };
+		D38D4B611F06BE02006EF062 /* cadences3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B5E1F06BE02006EF062 /* cadences3.json */; };
+		D38D4B671F06BE5D006EF062 /* keymodulations-1.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B631F06BE5D006EF062 /* keymodulations-1.json */; };
+		D38D4B681F06BE5D006EF062 /* keymodulations-2.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B641F06BE5D006EF062 /* keymodulations-2.json */; };
+		D38D4B691F06BE5D006EF062 /* keymodulations-3.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B651F06BE5D006EF062 /* keymodulations-3.json */; };
+		D38D4B6A1F06BE5D006EF062 /* keymodulations-4.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B661F06BE5D006EF062 /* keymodulations-4.json */; };
+		D38D4B6E1F06BF3A006EF062 /* bricks.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B6C1F06BF3A006EF062 /* bricks.json */; };
+		D38D4B6F1F06BF3A006EF062 /* pullbacks.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B6D1F06BF3A006EF062 /* pullbacks.json */; };
+		D38D4B711F06BF82006EF062 /* template.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B701F06BF82006EF062 /* template.json */; };
+		D38D4B7B1F06C03E006EF062 /* afternooninparis.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B741F06C03E006EF062 /* afternooninparis.json */; };
+		D38D4B7C1F06C03E006EF062 /* aintmisbehavin.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B751F06C03E006EF062 /* aintmisbehavin.json */; };
+		D38D4B7D1F06C03E006EF062 /* aliceinwonderland.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B761F06C03E006EF062 /* aliceinwonderland.json */; };
+		D38D4B7E1F06C03E006EF062 /* allofme.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B771F06C03E006EF062 /* allofme.json */; };
+		D38D4B7F1F06C03E006EF062 /* allthethingsyouare.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B781F06C03E006EF062 /* allthethingsyouare.json */; };
+		D38D4B801F06C03E006EF062 /* angeleyes.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B791F06C03E006EF062 /* angeleyes.json */; };
+		D38D4B811F06C03E006EF062 /* atrain.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B7A1F06C03E006EF062 /* atrain.json */; };
+		D38D4B851F06C06C006EF062 /* minorfolk.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B831F06C06C006EF062 /* minorfolk.json */; };
+		D38D4B861F06C06C006EF062 /* nomorecane.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D4B841F06C06C006EF062 /* nomorecane.json */; };
 		EABEE0E86F924C029A491614 /* Pods_iHearChangesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE96FAF8DA874D54452A9FB /* Pods_iHearChangesSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,20 +104,8 @@
 		2BE96FAF8DA874D54452A9FB /* Pods_iHearChangesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHearChangesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E6A4C8BFF66A69777982AD /* Pods-iHearChangesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHearChangesSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHearChangesSwift/Pods-iHearChangesSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		A2FE4BA36AB27B9693A26FD6 /* Pods-iHearChangesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHearChangesSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHearChangesSwift/Pods-iHearChangesSwift.release.xcconfig"; sourceTree = "<group>"; };
-		BE08F88A1E5E4DE800E83C61 /* afternooninparis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = afternooninparis.json; sourceTree = "<group>"; };
-		BE08F88D1E5E56F700E83C61 /* aintmisbehavin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aintmisbehavin.json; path = Pods/aintmisbehavin.json; sourceTree = "<group>"; };
-		BE1E704B1E5FA02E0087A439 /* aliceinwonderland.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aliceinwonderland.json; sourceTree = "<group>"; };
-		BE1E704D1E609CFB0087A439 /* allofme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allofme.json; sourceTree = "<group>"; };
-		BE1E704E1E609CFB0087A439 /* allthethingsyouare.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allthethingsyouare.json; sourceTree = "<group>"; };
-		BE1E704F1E609CFB0087A439 /* angeleyes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = angeleyes.json; sourceTree = "<group>"; };
-		BE3368711E008E2700F4295B /* I-IV-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-1subs.json"; sourceTree = "<group>"; };
-		BE3368721E008E2700F4295B /* I-IV-V-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-1subs.json"; sourceTree = "<group>"; };
-		BE3368731E008E2700F4295B /* I-V-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-V-1subs.json"; sourceTree = "<group>"; };
-		BE5910651E391AD3000E234D /* atrain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = atrain.json; sourceTree = "<group>"; };
-		BE5AA8DD1F01D05700DAD6F2 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		BE6C6C1B1F054BE100EBF61A /* rhodes_73.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhodes_73.sf2; sourceTree = "<group>"; };
-		BE86A15A1E526A8B0086CF1A /* bricks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bricks.json; sourceTree = "<group>"; };
-		BEF3E2981E70BDC1007E33FE /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		BEF3E2981E70BDC1007E33FE /* Experiments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Experiments.playground; path = ../Experiments.playground; sourceTree = "<group>"; };
 		D329D9FA1DDF7A9C0080D74F /* iHearChangesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHearChangesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D329D9FD1DDF7A9C0080D74F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D329DA041DDF7A9C0080D74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,65 +117,81 @@
 		D329DA191DDF7A9C0080D74F /* iHearChangesSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHearChangesSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D329DA1D1DDF7A9C0080D74F /* iHearChangesSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHearChangesSwiftUITests.swift; sourceTree = "<group>"; };
 		D329DA1F1DDF7A9C0080D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D329DA2F1DDF7E010080D74F /* cadences1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cadences1.json; sourceTree = "<group>"; };
-		D329DA301DDF7E010080D74F /* cadences2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cadences2.json; sourceTree = "<group>"; };
-		D329DA311DDF7E010080D74F /* cadences3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cadences3.json; sourceTree = "<group>"; };
-		D329DA321DDF7E010080D74F /* I-IV-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-1.json"; sourceTree = "<group>"; };
-		D329DA331DDF7E010080D74F /* I-IV-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-2.json"; sourceTree = "<group>"; };
-		D329DA341DDF7E010080D74F /* I-IV-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-3.json"; sourceTree = "<group>"; };
-		D329DA351DDF7E010080D74F /* I-IV-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-4.json"; sourceTree = "<group>"; };
-		D329DA361DDF7E010080D74F /* I-IV-V-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-1.json"; sourceTree = "<group>"; };
-		D329DA371DDF7E010080D74F /* I-IV-V-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-2.json"; sourceTree = "<group>"; };
-		D329DA381DDF7E020080D74F /* I-IV-V-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-3.json"; sourceTree = "<group>"; };
-		D329DA391DDF7E020080D74F /* I-IV-V-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-4.json"; sourceTree = "<group>"; };
-		D329DA3A1DDF7E020080D74F /* I-IV-V-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-5.json"; sourceTree = "<group>"; };
-		D329DA3B1DDF7E020080D74F /* I-IV-V-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-6.json"; sourceTree = "<group>"; };
-		D329DA3C1DDF7E020080D74F /* I-IV-V-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-7.json"; sourceTree = "<group>"; };
-		D329DA3D1DDF7E020080D74F /* I-IV-V-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-8.json"; sourceTree = "<group>"; };
-		D329DA3E1DDF7E020080D74F /* I-IV-V-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-IV-V-9.json"; sourceTree = "<group>"; };
-		D329DA3F1DDF7E020080D74F /* I-V-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-V-1.json"; sourceTree = "<group>"; };
-		D329DA401DDF7E020080D74F /* I-V-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-V-2.json"; sourceTree = "<group>"; };
-		D329DA411DDF7E020080D74F /* I-V-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-V-3.json"; sourceTree = "<group>"; };
-		D329DA421DDF7E020080D74F /* I-V-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "I-V-4.json"; sourceTree = "<group>"; };
-		D329DA431DDF7E020080D74F /* keymodulations-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "keymodulations-1.json"; sourceTree = "<group>"; };
-		D329DA441DDF7E020080D74F /* keymodulations-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "keymodulations-2.json"; sourceTree = "<group>"; };
-		D329DA451DDF7E020080D74F /* keymodulations-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "keymodulations-3.json"; sourceTree = "<group>"; };
-		D329DA461DDF7E020080D74F /* keymodulations-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "keymodulations-4.json"; sourceTree = "<group>"; };
-		D329DA471DDF7E020080D74F /* minorfolk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = minorfolk.json; sourceTree = "<group>"; };
-		D329DA481DDF7E020080D74F /* nomorecane.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nomorecane.json; sourceTree = "<group>"; };
-		D329DA491DDF7E020080D74F /* pullbacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pullbacks.json; sourceTree = "<group>"; };
-		D329DA4A1DDF7E020080D74F /* secondaryDominants1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = secondaryDominants1.json; sourceTree = "<group>"; };
-		D329DA4B1DDF7E020080D74F /* secondaryDominants2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = secondaryDominants2.json; sourceTree = "<group>"; };
-		D329DA4C1DDF7E020080D74F /* secondaryDominants3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = secondaryDominants3.json; sourceTree = "<group>"; };
-		D329DA4D1DDF7E020080D74F /* secondaryDominants4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = secondaryDominants4.json; sourceTree = "<group>"; };
-		D329DA4E1DDF7E020080D74F /* template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = template.json; sourceTree = "<group>"; };
 		D329DA701DDF7E810080D74F /* iHearChangesSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHearChangesSwift-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		D329DA711DDF7E810080D74F /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord.h; sourceTree = "<group>"; };
-		D329DA721DDF7E810080D74F /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord.m; sourceTree = "<group>"; };
-		D329DA731DDF7E810080D74F /* ChordFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordFunction.h; sourceTree = "<group>"; };
-		D329DA741DDF7E810080D74F /* ChordFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChordFunction.m; sourceTree = "<group>"; };
-		D329DA751DDF7E810080D74F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		D329DA761DDF7E810080D74F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		D329DA771DDF7E810080D74F /* Progression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Progression.h; sourceTree = "<group>"; };
-		D329DA781DDF7E810080D74F /* Progression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Progression.m; sourceTree = "<group>"; };
-		D329DA791DDF7E810080D74F /* SequenceTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceTemplate.h; sourceTree = "<group>"; };
-		D329DA7A1DDF7E810080D74F /* SequenceTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequenceTemplate.m; sourceTree = "<group>"; };
-		D329DA7B1DDF7E810080D74F /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timing.h; sourceTree = "<group>"; };
-		D329DA7C1DDF7E810080D74F /* Timing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timing.m; sourceTree = "<group>"; };
-		D329DA7D1DDF7E810080D74F /* Tune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tune.h; sourceTree = "<group>"; };
-		D329DA7E1DDF7E810080D74F /* Tune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tune.m; sourceTree = "<group>"; };
-		D329DA861DDF7F860080D74F /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
-		D329DA871DDF7F860080D74F /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
-		D329DA881DDF7F860080D74F /* MainDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDisplay.swift; sourceTree = "<group>"; };
 		D329DA891DDF7F860080D74F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D329DA8A1DDF7F860080D74F /* AnswerPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerPane.swift; sourceTree = "<group>"; };
-		D329DA8B1DDF7F860080D74F /* PlaybackPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackPane.swift; sourceTree = "<group>"; };
-		D329DA8C1DDF7F860080D74F /* MixPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixPane.swift; sourceTree = "<group>"; };
-		D329DA8D1DDF7F860080D74F /* MeasureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureCell.swift; sourceTree = "<group>"; };
-		D329DA8E1DDF7F860080D74F /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		D3E539321DFD9CB0008192C6 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		D3E539341DFD9D98008192C6 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
-		D3E539361DFD9F2E008192C6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D38D4AEC1F069ABE006EF062 /* MidiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MidiManager.swift; path = iHearChangesSwift/MidiManager.swift; sourceTree = "<group>"; };
+		D38D4AF51F06BBAB006EF062 /* AppStatusModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStatusModels.swift; path = iHearChangesSwift/models/AppStatusModels.swift; sourceTree = "<group>"; };
+		D38D4AF61F06BBAB006EF062 /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chord.h; path = iHearChangesSwift/models/Chord.h; sourceTree = "<group>"; };
+		D38D4AF71F06BBAB006EF062 /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chord.m; path = iHearChangesSwift/models/Chord.m; sourceTree = "<group>"; };
+		D38D4AF81F06BBAB006EF062 /* ChordFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChordFunction.h; path = iHearChangesSwift/models/ChordFunction.h; sourceTree = "<group>"; };
+		D38D4AF91F06BBAB006EF062 /* ChordFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChordFunction.m; path = iHearChangesSwift/models/ChordFunction.m; sourceTree = "<group>"; };
+		D38D4AFA1F06BBAB006EF062 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = iHearChangesSwift/models/Player.h; sourceTree = "<group>"; };
+		D38D4AFB1F06BBAB006EF062 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = iHearChangesSwift/models/Player.m; sourceTree = "<group>"; };
+		D38D4AFC1F06BBAB006EF062 /* Progression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Progression.h; path = iHearChangesSwift/models/Progression.h; sourceTree = "<group>"; };
+		D38D4AFD1F06BBAB006EF062 /* Progression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Progression.m; path = iHearChangesSwift/models/Progression.m; sourceTree = "<group>"; };
+		D38D4AFE1F06BBAB006EF062 /* SequenceTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SequenceTemplate.h; path = iHearChangesSwift/models/SequenceTemplate.h; sourceTree = "<group>"; };
+		D38D4AFF1F06BBAB006EF062 /* SequenceTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SequenceTemplate.m; path = iHearChangesSwift/models/SequenceTemplate.m; sourceTree = "<group>"; };
+		D38D4B001F06BBAB006EF062 /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timing.h; path = iHearChangesSwift/models/Timing.h; sourceTree = "<group>"; };
+		D38D4B011F06BBAB006EF062 /* Timing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Timing.m; path = iHearChangesSwift/models/Timing.m; sourceTree = "<group>"; };
+		D38D4B021F06BBAB006EF062 /* Tune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tune.h; path = iHearChangesSwift/models/Tune.h; sourceTree = "<group>"; };
+		D38D4B031F06BBAB006EF062 /* Tune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tune.m; path = iHearChangesSwift/models/Tune.m; sourceTree = "<group>"; };
+		D38D4B0C1F06BBE6006EF062 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBox.swift; path = "User Interface/CheckBox.swift"; sourceTree = "<group>"; };
+		D38D4B0D1F06BBE6006EF062 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewHeader.swift; path = "User Interface/CollapsibleTableViewHeader.swift"; sourceTree = "<group>"; };
+		D38D4B0E1F06BBE6006EF062 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSlider.swift; path = "User Interface/CustomSlider.swift"; sourceTree = "<group>"; };
+		D38D4B0F1F06BBE6006EF062 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "User Interface/Extensions.swift"; sourceTree = "<group>"; };
+		D38D4B101F06BBE6006EF062 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = "User Interface/InfoViewController.swift"; sourceTree = "<group>"; };
+		D38D4B111F06BBE6006EF062 /* MainDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainDisplay.swift; path = "User Interface/MainDisplay.swift"; sourceTree = "<group>"; };
+		D38D4B121F06BBE6006EF062 /* MainDisplayCollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainDisplayCollectionViewExtensions.swift; path = "User Interface/MainDisplayCollectionViewExtensions.swift"; sourceTree = "<group>"; };
+		D38D4B131F06BBE6006EF062 /* MainDisplaySupportPaneExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainDisplaySupportPaneExtensions.swift; path = "User Interface/MainDisplaySupportPaneExtensions.swift"; sourceTree = "<group>"; };
+		D38D4B141F06BBE6006EF062 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuViewController.swift; path = "User Interface/MainMenuViewController.swift"; sourceTree = "<group>"; };
+		D38D4B151F06BBE6006EF062 /* MeasureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeasureCell.swift; path = "User Interface/MeasureCell.swift"; sourceTree = "<group>"; };
+		D38D4B161F06BBE6006EF062 /* MixPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MixPane.swift; path = "User Interface/MixPane.swift"; sourceTree = "<group>"; };
+		D38D4B171F06BBE6006EF062 /* PlaybackPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaybackPane.swift; path = "User Interface/PlaybackPane.swift"; sourceTree = "<group>"; };
+		D38D4B191F06BBE6006EF062 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = "User Interface/RangeSlider.swift"; sourceTree = "<group>"; };
+		D38D4B291F06BD75006EF062 /* I-IV-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-1.json"; path = "lessons/basics-1/I-IV-1.json"; sourceTree = "<group>"; };
+		D38D4B2A1F06BD75006EF062 /* I-IV-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-2.json"; path = "lessons/basics-1/I-IV-2.json"; sourceTree = "<group>"; };
+		D38D4B2B1F06BD75006EF062 /* I-IV-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-3.json"; path = "lessons/basics-1/I-IV-3.json"; sourceTree = "<group>"; };
+		D38D4B2C1F06BD75006EF062 /* I-IV-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-4.json"; path = "lessons/basics-1/I-IV-4.json"; sourceTree = "<group>"; };
+		D38D4B2D1F06BD75006EF062 /* I-IV-V-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-1.json"; path = "lessons/basics-1/I-IV-V-1.json"; sourceTree = "<group>"; };
+		D38D4B2E1F06BD75006EF062 /* I-IV-V-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-2.json"; path = "lessons/basics-1/I-IV-V-2.json"; sourceTree = "<group>"; };
+		D38D4B2F1F06BD75006EF062 /* I-IV-V-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-3.json"; path = "lessons/basics-1/I-IV-V-3.json"; sourceTree = "<group>"; };
+		D38D4B301F06BD75006EF062 /* I-IV-V-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-4.json"; path = "lessons/basics-1/I-IV-V-4.json"; sourceTree = "<group>"; };
+		D38D4B311F06BD75006EF062 /* I-IV-V-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-5.json"; path = "lessons/basics-1/I-IV-V-5.json"; sourceTree = "<group>"; };
+		D38D4B321F06BD75006EF062 /* I-IV-V-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-6.json"; path = "lessons/basics-1/I-IV-V-6.json"; sourceTree = "<group>"; };
+		D38D4B331F06BD75006EF062 /* I-IV-V-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-7.json"; path = "lessons/basics-1/I-IV-V-7.json"; sourceTree = "<group>"; };
+		D38D4B341F06BD75006EF062 /* I-IV-V-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-8.json"; path = "lessons/basics-1/I-IV-V-8.json"; sourceTree = "<group>"; };
+		D38D4B351F06BD75006EF062 /* I-IV-V-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-9.json"; path = "lessons/basics-1/I-IV-V-9.json"; sourceTree = "<group>"; };
+		D38D4B361F06BD75006EF062 /* I-V-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-V-1.json"; path = "lessons/basics-1/I-V-1.json"; sourceTree = "<group>"; };
+		D38D4B371F06BD75006EF062 /* I-V-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-V-2.json"; path = "lessons/basics-1/I-V-2.json"; sourceTree = "<group>"; };
+		D38D4B381F06BD75006EF062 /* I-V-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-V-3.json"; path = "lessons/basics-1/I-V-3.json"; sourceTree = "<group>"; };
+		D38D4B391F06BD75006EF062 /* I-V-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-V-4.json"; path = "lessons/basics-1/I-V-4.json"; sourceTree = "<group>"; };
+		D38D4B4C1F06BD9A006EF062 /* I-IV-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-1subs.json"; path = "lessons/basics-2/I-IV-1subs.json"; sourceTree = "<group>"; };
+		D38D4B4D1F06BD9A006EF062 /* I-IV-V-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-IV-V-1subs.json"; path = "lessons/basics-2/I-IV-V-1subs.json"; sourceTree = "<group>"; };
+		D38D4B4E1F06BD9A006EF062 /* I-V-1subs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "I-V-1subs.json"; path = "lessons/basics-2/I-V-1subs.json"; sourceTree = "<group>"; };
+		D38D4B531F06BDCC006EF062 /* secondaryDominants1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = secondaryDominants1.json; path = "lessons/secondary-dominants/secondaryDominants1.json"; sourceTree = "<group>"; };
+		D38D4B541F06BDCC006EF062 /* secondaryDominants2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = secondaryDominants2.json; path = "lessons/secondary-dominants/secondaryDominants2.json"; sourceTree = "<group>"; };
+		D38D4B551F06BDCC006EF062 /* secondaryDominants3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = secondaryDominants3.json; path = "lessons/secondary-dominants/secondaryDominants3.json"; sourceTree = "<group>"; };
+		D38D4B561F06BDCC006EF062 /* secondaryDominants4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = secondaryDominants4.json; path = "lessons/secondary-dominants/secondaryDominants4.json"; sourceTree = "<group>"; };
+		D38D4B5C1F06BE02006EF062 /* cadences1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cadences1.json; path = lessons/cadences/cadences1.json; sourceTree = "<group>"; };
+		D38D4B5D1F06BE02006EF062 /* cadences2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cadences2.json; path = lessons/cadences/cadences2.json; sourceTree = "<group>"; };
+		D38D4B5E1F06BE02006EF062 /* cadences3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cadences3.json; path = lessons/cadences/cadences3.json; sourceTree = "<group>"; };
+		D38D4B631F06BE5D006EF062 /* keymodulations-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "keymodulations-1.json"; path = "lessons/key-modulations/keymodulations-1.json"; sourceTree = "<group>"; };
+		D38D4B641F06BE5D006EF062 /* keymodulations-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "keymodulations-2.json"; path = "lessons/key-modulations/keymodulations-2.json"; sourceTree = "<group>"; };
+		D38D4B651F06BE5D006EF062 /* keymodulations-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "keymodulations-3.json"; path = "lessons/key-modulations/keymodulations-3.json"; sourceTree = "<group>"; };
+		D38D4B661F06BE5D006EF062 /* keymodulations-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "keymodulations-4.json"; path = "lessons/key-modulations/keymodulations-4.json"; sourceTree = "<group>"; };
+		D38D4B6C1F06BF3A006EF062 /* bricks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bricks.json; path = "lessons/adv-misc-progressions/bricks.json"; sourceTree = "<group>"; };
+		D38D4B6D1F06BF3A006EF062 /* pullbacks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pullbacks.json; path = "lessons/adv-misc-progressions/pullbacks.json"; sourceTree = "<group>"; };
+		D38D4B701F06BF82006EF062 /* template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = template.json; path = lessons/template.json; sourceTree = "<group>"; };
+		D38D4B741F06C03E006EF062 /* afternooninparis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = afternooninparis.json; path = "lessons/jazz-standards/afternooninparis.json"; sourceTree = "<group>"; };
+		D38D4B751F06C03E006EF062 /* aintmisbehavin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aintmisbehavin.json; path = "lessons/jazz-standards/aintmisbehavin.json"; sourceTree = "<group>"; };
+		D38D4B761F06C03E006EF062 /* aliceinwonderland.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aliceinwonderland.json; path = "lessons/jazz-standards/aliceinwonderland.json"; sourceTree = "<group>"; };
+		D38D4B771F06C03E006EF062 /* allofme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allofme.json; path = "lessons/jazz-standards/allofme.json"; sourceTree = "<group>"; };
+		D38D4B781F06C03E006EF062 /* allthethingsyouare.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allthethingsyouare.json; path = "lessons/jazz-standards/allthethingsyouare.json"; sourceTree = "<group>"; };
+		D38D4B791F06C03E006EF062 /* angeleyes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = angeleyes.json; path = "lessons/jazz-standards/angeleyes.json"; sourceTree = "<group>"; };
+		D38D4B7A1F06C03E006EF062 /* atrain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = atrain.json; path = "lessons/jazz-standards/atrain.json"; sourceTree = "<group>"; };
+		D38D4B831F06C06C006EF062 /* minorfolk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = minorfolk.json; path = "lessons/folk-tunes/minorfolk.json"; sourceTree = "<group>"; };
+		D38D4B841F06C06C006EF062 /* nomorecane.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nomorecane.json; path = "lessons/folk-tunes/nomorecane.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,10 +240,6 @@
 		D329D9F11DDF7A9C0080D74F = {
 			isa = PBXGroup;
 			children = (
-				BEF3E2981E70BDC1007E33FE /* MyPlayground.playground */,
-				D329DA6F1DDF7E6E0080D74F /* models */,
-				D329DA2E1DDF7DE90080D74F /* lessons */,
-				D329DA2B1DDF7DAF0080D74F /* soundfonts */,
 				D329D9FC1DDF7A9C0080D74F /* iHearChangesSwift */,
 				D329DA111DDF7A9C0080D74F /* iHearChangesSwiftTests */,
 				D329DA1C1DDF7A9C0080D74F /* iHearChangesSwiftUITests */,
@@ -258,24 +262,16 @@
 		D329D9FC1DDF7A9C0080D74F /* iHearChangesSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D3E539361DFD9F2E008192C6 /* Extensions.swift */,
-				D329DA861DDF7F860080D74F /* CustomSlider.swift */,
-				D3E539341DFD9D98008192C6 /* CollapsibleTableViewHeader.swift */,
-				D329DA871DDF7F860080D74F /* RangeSlider.swift */,
-				D3E539321DFD9CB0008192C6 /* MainMenuViewController.swift */,
-				D329DA881DDF7F860080D74F /* MainDisplay.swift */,
-				D329DA891DDF7F860080D74F /* Main.storyboard */,
-				D329DA8A1DDF7F860080D74F /* AnswerPane.swift */,
-				D329DA8B1DDF7F860080D74F /* PlaybackPane.swift */,
-				D329DA8C1DDF7F860080D74F /* MixPane.swift */,
-				D329DA8D1DDF7F860080D74F /* MeasureCell.swift */,
-				D329DA8E1DDF7F860080D74F /* CheckBox.swift */,
+				BEF3E2981E70BDC1007E33FE /* Experiments.playground */,
+				D329DA2B1DDF7DAF0080D74F /* soundfonts */,
+				D329DA2E1DDF7DE90080D74F /* lessons */,
+				D329DA6F1DDF7E6E0080D74F /* models */,
+				D38D4B881F06C0E2006EF062 /* UI */,
 				D329DA701DDF7E810080D74F /* iHearChangesSwift-Bridging-Header.h */,
 				D329D9FD1DDF7A9C0080D74F /* AppDelegate.swift */,
 				D329DA041DDF7A9C0080D74F /* Assets.xcassets */,
 				D329DA061DDF7A9C0080D74F /* LaunchScreen.storyboard */,
 				D329DA091DDF7A9C0080D74F /* Info.plist */,
-				BE5AA8DD1F01D05700DAD6F2 /* InfoViewController.swift */,
 			);
 			path = iHearChangesSwift;
 			sourceTree = "<group>";
@@ -304,77 +300,168 @@
 				BE6C6C1B1F054BE100EBF61A /* rhodes_73.sf2 */,
 			);
 			name = soundfonts;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D329DA2E1DDF7DE90080D74F /* lessons */ = {
 			isa = PBXGroup;
 			children = (
-				BE1E704D1E609CFB0087A439 /* allofme.json */,
-				BE1E704E1E609CFB0087A439 /* allthethingsyouare.json */,
-				BE1E704F1E609CFB0087A439 /* angeleyes.json */,
-				BE1E704B1E5FA02E0087A439 /* aliceinwonderland.json */,
-				BE5910651E391AD3000E234D /* atrain.json */,
-				BE3368711E008E2700F4295B /* I-IV-1subs.json */,
-				BE3368721E008E2700F4295B /* I-IV-V-1subs.json */,
-				BE3368731E008E2700F4295B /* I-V-1subs.json */,
-				D329DA2F1DDF7E010080D74F /* cadences1.json */,
-				D329DA301DDF7E010080D74F /* cadences2.json */,
-				D329DA311DDF7E010080D74F /* cadences3.json */,
-				D329DA321DDF7E010080D74F /* I-IV-1.json */,
-				BE08F88A1E5E4DE800E83C61 /* afternooninparis.json */,
-				D329DA331DDF7E010080D74F /* I-IV-2.json */,
-				D329DA341DDF7E010080D74F /* I-IV-3.json */,
-				D329DA351DDF7E010080D74F /* I-IV-4.json */,
-				D329DA361DDF7E010080D74F /* I-IV-V-1.json */,
-				D329DA371DDF7E010080D74F /* I-IV-V-2.json */,
-				D329DA381DDF7E020080D74F /* I-IV-V-3.json */,
-				D329DA391DDF7E020080D74F /* I-IV-V-4.json */,
-				D329DA3A1DDF7E020080D74F /* I-IV-V-5.json */,
-				D329DA3B1DDF7E020080D74F /* I-IV-V-6.json */,
-				D329DA3C1DDF7E020080D74F /* I-IV-V-7.json */,
-				D329DA3D1DDF7E020080D74F /* I-IV-V-8.json */,
-				D329DA3E1DDF7E020080D74F /* I-IV-V-9.json */,
-				D329DA3F1DDF7E020080D74F /* I-V-1.json */,
-				D329DA401DDF7E020080D74F /* I-V-2.json */,
-				D329DA411DDF7E020080D74F /* I-V-3.json */,
-				D329DA421DDF7E020080D74F /* I-V-4.json */,
-				D329DA431DDF7E020080D74F /* keymodulations-1.json */,
-				D329DA441DDF7E020080D74F /* keymodulations-2.json */,
-				D329DA451DDF7E020080D74F /* keymodulations-3.json */,
-				D329DA461DDF7E020080D74F /* keymodulations-4.json */,
-				D329DA471DDF7E020080D74F /* minorfolk.json */,
-				D329DA481DDF7E020080D74F /* nomorecane.json */,
-				D329DA491DDF7E020080D74F /* pullbacks.json */,
-				D329DA4A1DDF7E020080D74F /* secondaryDominants1.json */,
-				D329DA4B1DDF7E020080D74F /* secondaryDominants2.json */,
-				BE08F88D1E5E56F700E83C61 /* aintmisbehavin.json */,
-				D329DA4C1DDF7E020080D74F /* secondaryDominants3.json */,
-				D329DA4D1DDF7E020080D74F /* secondaryDominants4.json */,
-				D329DA4E1DDF7E020080D74F /* template.json */,
-				BE86A15A1E526A8B0086CF1A /* bricks.json */,
+				D38D4B701F06BF82006EF062 /* template.json */,
+				D38D4B281F06BD45006EF062 /* basics-1 */,
+				D38D4B4B1F06BD7F006EF062 /* basics-2 */,
+				D38D4B821F06C04E006EF062 /* folk-tunes */,
+				D38D4B521F06BDA7006EF062 /* secondary-dominants */,
+				D38D4B5B1F06BDE1006EF062 /* cadences */,
+				D38D4B621F06BE40006EF062 /* key-modulations */,
+				D38D4B6B1F06BEB3006EF062 /* adv-misc-progressions */,
+				D38D4B731F06C020006EF062 /* jazz-progressions */,
 			);
 			name = lessons;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D329DA6F1DDF7E6E0080D74F /* models */ = {
 			isa = PBXGroup;
 			children = (
-				D329DA711DDF7E810080D74F /* Chord.h */,
-				D329DA721DDF7E810080D74F /* Chord.m */,
-				D329DA731DDF7E810080D74F /* ChordFunction.h */,
-				D329DA741DDF7E810080D74F /* ChordFunction.m */,
-				D329DA751DDF7E810080D74F /* Player.h */,
-				D329DA761DDF7E810080D74F /* Player.m */,
-				D329DA771DDF7E810080D74F /* Progression.h */,
-				D329DA781DDF7E810080D74F /* Progression.m */,
-				D329DA791DDF7E810080D74F /* SequenceTemplate.h */,
-				D329DA7A1DDF7E810080D74F /* SequenceTemplate.m */,
-				D329DA7B1DDF7E810080D74F /* Timing.h */,
-				D329DA7C1DDF7E810080D74F /* Timing.m */,
-				D329DA7D1DDF7E810080D74F /* Tune.h */,
-				D329DA7E1DDF7E810080D74F /* Tune.m */,
+				D38D4AF51F06BBAB006EF062 /* AppStatusModels.swift */,
+				D38D4AF61F06BBAB006EF062 /* Chord.h */,
+				D38D4AF71F06BBAB006EF062 /* Chord.m */,
+				D38D4AF81F06BBAB006EF062 /* ChordFunction.h */,
+				D38D4AF91F06BBAB006EF062 /* ChordFunction.m */,
+				D38D4AEC1F069ABE006EF062 /* MidiManager.swift */,
+				D38D4AFA1F06BBAB006EF062 /* Player.h */,
+				D38D4AFB1F06BBAB006EF062 /* Player.m */,
+				D38D4AFC1F06BBAB006EF062 /* Progression.h */,
+				D38D4AFD1F06BBAB006EF062 /* Progression.m */,
+				D38D4AFE1F06BBAB006EF062 /* SequenceTemplate.h */,
+				D38D4AFF1F06BBAB006EF062 /* SequenceTemplate.m */,
+				D38D4B001F06BBAB006EF062 /* Timing.h */,
+				D38D4B011F06BBAB006EF062 /* Timing.m */,
+				D38D4B021F06BBAB006EF062 /* Tune.h */,
+				D38D4B031F06BBAB006EF062 /* Tune.m */,
 			);
 			name = models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D38D4B281F06BD45006EF062 /* basics-1 */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B291F06BD75006EF062 /* I-IV-1.json */,
+				D38D4B2A1F06BD75006EF062 /* I-IV-2.json */,
+				D38D4B2B1F06BD75006EF062 /* I-IV-3.json */,
+				D38D4B2C1F06BD75006EF062 /* I-IV-4.json */,
+				D38D4B2D1F06BD75006EF062 /* I-IV-V-1.json */,
+				D38D4B2E1F06BD75006EF062 /* I-IV-V-2.json */,
+				D38D4B2F1F06BD75006EF062 /* I-IV-V-3.json */,
+				D38D4B301F06BD75006EF062 /* I-IV-V-4.json */,
+				D38D4B311F06BD75006EF062 /* I-IV-V-5.json */,
+				D38D4B321F06BD75006EF062 /* I-IV-V-6.json */,
+				D38D4B331F06BD75006EF062 /* I-IV-V-7.json */,
+				D38D4B341F06BD75006EF062 /* I-IV-V-8.json */,
+				D38D4B351F06BD75006EF062 /* I-IV-V-9.json */,
+				D38D4B361F06BD75006EF062 /* I-V-1.json */,
+				D38D4B371F06BD75006EF062 /* I-V-2.json */,
+				D38D4B381F06BD75006EF062 /* I-V-3.json */,
+				D38D4B391F06BD75006EF062 /* I-V-4.json */,
+			);
+			name = "basics-1";
+			sourceTree = "<group>";
+		};
+		D38D4B4B1F06BD7F006EF062 /* basics-2 */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B4C1F06BD9A006EF062 /* I-IV-1subs.json */,
+				D38D4B4D1F06BD9A006EF062 /* I-IV-V-1subs.json */,
+				D38D4B4E1F06BD9A006EF062 /* I-V-1subs.json */,
+			);
+			name = "basics-2";
+			sourceTree = "<group>";
+		};
+		D38D4B521F06BDA7006EF062 /* secondary-dominants */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B531F06BDCC006EF062 /* secondaryDominants1.json */,
+				D38D4B541F06BDCC006EF062 /* secondaryDominants2.json */,
+				D38D4B551F06BDCC006EF062 /* secondaryDominants3.json */,
+				D38D4B561F06BDCC006EF062 /* secondaryDominants4.json */,
+			);
+			name = "secondary-dominants";
+			sourceTree = "<group>";
+		};
+		D38D4B5B1F06BDE1006EF062 /* cadences */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B5C1F06BE02006EF062 /* cadences1.json */,
+				D38D4B5D1F06BE02006EF062 /* cadences2.json */,
+				D38D4B5E1F06BE02006EF062 /* cadences3.json */,
+			);
+			name = cadences;
+			sourceTree = "<group>";
+		};
+		D38D4B621F06BE40006EF062 /* key-modulations */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B631F06BE5D006EF062 /* keymodulations-1.json */,
+				D38D4B641F06BE5D006EF062 /* keymodulations-2.json */,
+				D38D4B651F06BE5D006EF062 /* keymodulations-3.json */,
+				D38D4B661F06BE5D006EF062 /* keymodulations-4.json */,
+			);
+			name = "key-modulations";
+			sourceTree = "<group>";
+		};
+		D38D4B6B1F06BEB3006EF062 /* adv-misc-progressions */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B6C1F06BF3A006EF062 /* bricks.json */,
+				D38D4B6D1F06BF3A006EF062 /* pullbacks.json */,
+			);
+			name = "adv-misc-progressions";
+			sourceTree = "<group>";
+		};
+		D38D4B731F06C020006EF062 /* jazz-progressions */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B741F06C03E006EF062 /* afternooninparis.json */,
+				D38D4B751F06C03E006EF062 /* aintmisbehavin.json */,
+				D38D4B761F06C03E006EF062 /* aliceinwonderland.json */,
+				D38D4B771F06C03E006EF062 /* allofme.json */,
+				D38D4B781F06C03E006EF062 /* allthethingsyouare.json */,
+				D38D4B791F06C03E006EF062 /* angeleyes.json */,
+				D38D4B7A1F06C03E006EF062 /* atrain.json */,
+			);
+			name = "jazz-progressions";
+			sourceTree = "<group>";
+		};
+		D38D4B821F06C04E006EF062 /* folk-tunes */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B831F06C06C006EF062 /* minorfolk.json */,
+				D38D4B841F06C06C006EF062 /* nomorecane.json */,
+			);
+			name = "folk-tunes";
+			sourceTree = "<group>";
+		};
+		D38D4B881F06C0E2006EF062 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D38D4B0C1F06BBE6006EF062 /* CheckBox.swift */,
+				D38D4B0D1F06BBE6006EF062 /* CollapsibleTableViewHeader.swift */,
+				D38D4B0E1F06BBE6006EF062 /* CustomSlider.swift */,
+				D38D4B0F1F06BBE6006EF062 /* Extensions.swift */,
+				D38D4B101F06BBE6006EF062 /* InfoViewController.swift */,
+				D38D4B111F06BBE6006EF062 /* MainDisplay.swift */,
+				D38D4B121F06BBE6006EF062 /* MainDisplayCollectionViewExtensions.swift */,
+				D38D4B131F06BBE6006EF062 /* MainDisplaySupportPaneExtensions.swift */,
+				D38D4B141F06BBE6006EF062 /* MainMenuViewController.swift */,
+				D38D4B151F06BBE6006EF062 /* MeasureCell.swift */,
+				D38D4B161F06BBE6006EF062 /* MixPane.swift */,
+				D38D4B171F06BBE6006EF062 /* PlaybackPane.swift */,
+				D38D4B191F06BBE6006EF062 /* RangeSlider.swift */,
+				D329DA891DDF7F860080D74F /* Main.storyboard */,
+				D329DA8A1DDF7F860080D74F /* AnswerPane.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,53 +581,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D329DA541DDF7E020080D74F /* I-IV-3.json in Resources */,
-				D329DA501DDF7E020080D74F /* cadences2.json in Resources */,
-				BE08F88B1E5E4DE800E83C61 /* afternooninparis.json in Resources */,
-				D329DA6C1DDF7E020080D74F /* secondaryDominants3.json in Resources */,
-				BE1E70501E609CFB0087A439 /* allofme.json in Resources */,
-				D329DA551DDF7E020080D74F /* I-IV-4.json in Resources */,
-				D329DA651DDF7E020080D74F /* keymodulations-3.json in Resources */,
-				D329DA6D1DDF7E020080D74F /* secondaryDominants4.json in Resources */,
+				D38D4B3D1F06BD75006EF062 /* I-IV-4.json in Resources */,
+				D38D4B401F06BD75006EF062 /* I-IV-V-3.json in Resources */,
+				D38D4B691F06BE5D006EF062 /* keymodulations-3.json in Resources */,
+				D38D4B491F06BD75006EF062 /* I-V-3.json in Resources */,
+				D38D4B421F06BD75006EF062 /* I-IV-V-5.json in Resources */,
+				D38D4B461F06BD75006EF062 /* I-IV-V-9.json in Resources */,
 				D329DA921DDF7F860080D74F /* Main.storyboard in Resources */,
-				D329DA511DDF7E020080D74F /* cadences3.json in Resources */,
+				D38D4B7B1F06C03E006EF062 /* afternooninparis.json in Resources */,
+				D38D4B6A1F06BE5D006EF062 /* keymodulations-4.json in Resources */,
+				D38D4B861F06C06C006EF062 /* nomorecane.json in Resources */,
 				BE6C6C1C1F054BE100EBF61A /* rhodes_73.sf2 in Resources */,
-				D329DA6A1DDF7E020080D74F /* secondaryDominants1.json in Resources */,
-				BE1E70521E609CFB0087A439 /* angeleyes.json in Resources */,
-				D329DA5C1DDF7E020080D74F /* I-IV-V-7.json in Resources */,
-				D329DA6B1DDF7E020080D74F /* secondaryDominants2.json in Resources */,
+				D38D4B7E1F06C03E006EF062 /* allofme.json in Resources */,
+				D38D4B4F1F06BD9A006EF062 /* I-IV-1subs.json in Resources */,
+				D38D4B7D1F06C03E006EF062 /* aliceinwonderland.json in Resources */,
+				D38D4B571F06BDCC006EF062 /* secondaryDominants1.json in Resources */,
 				D329DA081DDF7A9C0080D74F /* LaunchScreen.storyboard in Resources */,
-				D329DA621DDF7E020080D74F /* I-V-4.json in Resources */,
-				BE08F88E1E5E56F700E83C61 /* aintmisbehavin.json in Resources */,
-				BE1E70511E609CFB0087A439 /* allthethingsyouare.json in Resources */,
-				D329DA571DDF7E020080D74F /* I-IV-V-2.json in Resources */,
-				D329DA661DDF7E020080D74F /* keymodulations-4.json in Resources */,
+				D38D4B7C1F06C03E006EF062 /* aintmisbehavin.json in Resources */,
+				D38D4B811F06C03E006EF062 /* atrain.json in Resources */,
+				D38D4B851F06C06C006EF062 /* minorfolk.json in Resources */,
+				D38D4B7F1F06C03E006EF062 /* allthethingsyouare.json in Resources */,
+				D38D4B3B1F06BD75006EF062 /* I-IV-2.json in Resources */,
+				D38D4B6E1F06BF3A006EF062 /* bricks.json in Resources */,
+				D38D4B5A1F06BDCC006EF062 /* secondaryDominants4.json in Resources */,
+				D38D4B3C1F06BD75006EF062 /* I-IV-3.json in Resources */,
+				D38D4B581F06BDCC006EF062 /* secondaryDominants2.json in Resources */,
 				D329DA051DDF7A9C0080D74F /* Assets.xcassets in Resources */,
-				D329DA4F1DDF7E020080D74F /* cadences1.json in Resources */,
-				D329DA521DDF7E020080D74F /* I-IV-1.json in Resources */,
-				D329DA601DDF7E020080D74F /* I-V-2.json in Resources */,
-				D329DA5E1DDF7E020080D74F /* I-IV-V-9.json in Resources */,
-				D329DA691DDF7E020080D74F /* pullbacks.json in Resources */,
-				BE3368751E008E2700F4295B /* I-IV-V-1subs.json in Resources */,
-				D329DA5B1DDF7E020080D74F /* I-IV-V-6.json in Resources */,
-				D329DA681DDF7E020080D74F /* nomorecane.json in Resources */,
-				D329DA591DDF7E020080D74F /* I-IV-V-4.json in Resources */,
-				BE5910661E391AD3000E234D /* atrain.json in Resources */,
-				D329DA6E1DDF7E020080D74F /* template.json in Resources */,
-				D329DA581DDF7E020080D74F /* I-IV-V-3.json in Resources */,
-				BE3368741E008E2700F4295B /* I-IV-1subs.json in Resources */,
-				D329DA611DDF7E020080D74F /* I-V-3.json in Resources */,
-				D329DA671DDF7E020080D74F /* minorfolk.json in Resources */,
-				BE3368761E008E2700F4295B /* I-V-1subs.json in Resources */,
-				D329DA5F1DDF7E020080D74F /* I-V-1.json in Resources */,
-				BE86A15B1E526A8B0086CF1A /* bricks.json in Resources */,
-				BE1E704C1E5FA02E0087A439 /* aliceinwonderland.json in Resources */,
-				D329DA5D1DDF7E020080D74F /* I-IV-V-8.json in Resources */,
-				D329DA631DDF7E020080D74F /* keymodulations-1.json in Resources */,
-				D329DA531DDF7E020080D74F /* I-IV-2.json in Resources */,
-				D329DA561DDF7E020080D74F /* I-IV-V-1.json in Resources */,
-				D329DA641DDF7E020080D74F /* keymodulations-2.json in Resources */,
-				D329DA5A1DDF7E020080D74F /* I-IV-V-5.json in Resources */,
+				D38D4B801F06C03E006EF062 /* angeleyes.json in Resources */,
+				D38D4B711F06BF82006EF062 /* template.json in Resources */,
+				D38D4B4A1F06BD75006EF062 /* I-V-4.json in Resources */,
+				D38D4B671F06BE5D006EF062 /* keymodulations-1.json in Resources */,
+				D38D4B681F06BE5D006EF062 /* keymodulations-2.json in Resources */,
+				D38D4B501F06BD9A006EF062 /* I-IV-V-1subs.json in Resources */,
+				D38D4B441F06BD75006EF062 /* I-IV-V-7.json in Resources */,
+				D38D4B3A1F06BD75006EF062 /* I-IV-1.json in Resources */,
+				D38D4B601F06BE02006EF062 /* cadences2.json in Resources */,
+				D38D4B3E1F06BD75006EF062 /* I-IV-V-1.json in Resources */,
+				D38D4B611F06BE02006EF062 /* cadences3.json in Resources */,
+				D38D4B451F06BD75006EF062 /* I-IV-V-8.json in Resources */,
+				D38D4B471F06BD75006EF062 /* I-V-1.json in Resources */,
+				D38D4B591F06BDCC006EF062 /* secondaryDominants3.json in Resources */,
+				D38D4B6F1F06BF3A006EF062 /* pullbacks.json in Resources */,
+				D38D4B481F06BD75006EF062 /* I-V-2.json in Resources */,
+				D38D4B511F06BD9A006EF062 /* I-V-1subs.json in Resources */,
+				D38D4B5F1F06BE02006EF062 /* cadences1.json in Resources */,
+				D38D4B411F06BD75006EF062 /* I-IV-V-4.json in Resources */,
+				D38D4B431F06BD75006EF062 /* I-IV-V-6.json in Resources */,
+				D38D4B3F1F06BD75006EF062 /* I-IV-V-2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,25 +701,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				D329DA931DDF7F860080D74F /* AnswerPane.swift in Sources */,
-				D329DA801DDF7E810080D74F /* ChordFunction.m in Sources */,
-				D329DA8F1DDF7F860080D74F /* CustomSlider.swift in Sources */,
-				D329DA7F1DDF7E810080D74F /* Chord.m in Sources */,
-				D3E539351DFD9D98008192C6 /* CollapsibleTableViewHeader.swift in Sources */,
-				D329DA851DDF7E810080D74F /* Tune.m in Sources */,
-				D329DA901DDF7F860080D74F /* RangeSlider.swift in Sources */,
-				D3E539371DFD9F2E008192C6 /* Extensions.swift in Sources */,
-				D329DA841DDF7E810080D74F /* Timing.m in Sources */,
-				D329DA941DDF7F860080D74F /* PlaybackPane.swift in Sources */,
-				D329DA951DDF7F860080D74F /* MixPane.swift in Sources */,
-				D3E539331DFD9CB0008192C6 /* MainMenuViewController.swift in Sources */,
-				D329DA971DDF7F860080D74F /* CheckBox.swift in Sources */,
-				D329DA821DDF7E810080D74F /* Progression.m in Sources */,
-				BE5AA8DE1F01D05700DAD6F2 /* InfoViewController.swift in Sources */,
+				D38D4B1E1F06BBE6006EF062 /* InfoViewController.swift in Sources */,
+				D38D4B081F06BBAB006EF062 /* Progression.m in Sources */,
+				D38D4B1D1F06BBE6006EF062 /* Extensions.swift in Sources */,
+				D38D4B041F06BBAB006EF062 /* AppStatusModels.swift in Sources */,
+				D38D4B051F06BBAB006EF062 /* Chord.m in Sources */,
+				D38D4B071F06BBAB006EF062 /* Player.m in Sources */,
+				D38D4B1C1F06BBE6006EF062 /* CustomSlider.swift in Sources */,
+				D38D4B241F06BBE6006EF062 /* MixPane.swift in Sources */,
+				D38D4AED1F069ABE006EF062 /* MidiManager.swift in Sources */,
+				D38D4B251F06BBE6006EF062 /* PlaybackPane.swift in Sources */,
+				D38D4B061F06BBAB006EF062 /* ChordFunction.m in Sources */,
+				D38D4B201F06BBE6006EF062 /* MainDisplayCollectionViewExtensions.swift in Sources */,
+				D38D4B091F06BBAB006EF062 /* SequenceTemplate.m in Sources */,
 				D329D9FE1DDF7A9C0080D74F /* AppDelegate.swift in Sources */,
-				D329DA831DDF7E810080D74F /* SequenceTemplate.m in Sources */,
-				D329DA811DDF7E810080D74F /* Player.m in Sources */,
-				D329DA961DDF7F860080D74F /* MeasureCell.swift in Sources */,
-				D329DA911DDF7F860080D74F /* MainDisplay.swift in Sources */,
+				D38D4B0A1F06BBAB006EF062 /* Timing.m in Sources */,
+				D38D4B211F06BBE6006EF062 /* MainDisplaySupportPaneExtensions.swift in Sources */,
+				D38D4B1B1F06BBE6006EF062 /* CollapsibleTableViewHeader.swift in Sources */,
+				D38D4B271F06BBE6006EF062 /* RangeSlider.swift in Sources */,
+				D38D4B221F06BBE6006EF062 /* MainMenuViewController.swift in Sources */,
+				D38D4B0B1F06BBAB006EF062 /* Tune.m in Sources */,
+				D38D4B231F06BBE6006EF062 /* MeasureCell.swift in Sources */,
+				D38D4B1A1F06BBE6006EF062 /* CheckBox.swift in Sources */,
+				D38D4B1F1F06BBE6006EF062 /* MainDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

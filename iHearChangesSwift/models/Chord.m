@@ -31,7 +31,7 @@
 - (NSMutableArray *) getChordMembers {
     
     NSMutableArray *chordMembers = [NSMutableArray new];
-    NSArray *sortedChordMembers;
+    //NSArray *sortedChordMembers;
     long nextMember;
     
     NSMutableArray *chordIntervals = [NSMutableArray new];

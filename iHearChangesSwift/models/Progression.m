@@ -50,7 +50,7 @@
                 int16_t currentChordMember = [chordMembers[chordMember] integerValue ];
                 NSLog(@"current chord member %hd",currentChordMember);
                int16_t smallestDifference = 12;
-                int16_t differenceFrom;
+                int16_t differenceFrom = 0;
                 for ( int16_t voiceIndex = 0; voiceIndex < lastVoicing.count; voiceIndex++) {
                     NSLog(@"comparing...%ld",[lastVoicing[voiceIndex] integerValue]);
                     int16_t currentDifference = currentChordMember - [lastVoicing[voiceIndex] integerValue];
@@ -93,7 +93,7 @@
 - (NSMutableArray *) bassLine {
     NSMutableArray *renderedBassLine = [NSMutableArray new];
     int16_t placement = 0;
-    int16_t duration = 4;
+    //int16_t duration = 4;
     
     for ( int16_t index = 0; index < [self.chordProgression count]; index++) {
         Chord *currentChord = self.chordProgression[index];
@@ -117,7 +117,7 @@
 - (NSMutableArray *) arpeggiatedBassLine {
     NSMutableArray *renderedBassLine = [NSMutableArray new];
     int16_t placement = 0;
-    int16_t duration = 4;
+    //int16_t duration = 4;
     
     for ( int16_t index = 0; index < [self.chordProgression count]; index++) {
         Chord *currentChord = self.chordProgression[index];

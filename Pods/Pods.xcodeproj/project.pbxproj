@@ -179,7 +179,7 @@
 		021A9A0766ED2D013885A0D86A1186DA /* Pods-iHearChangesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iHearChangesSwift-umbrella.h"; sourceTree = "<group>"; };
 		025EC83CD2A8A4C575D66863A22A1DFE /* MIKMIDINoteOnCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDINoteOnCommand.m; path = Source/MIKMIDINoteOnCommand.m; sourceTree = "<group>"; };
 		049EDCE1AA841C9882442DF1EEBBDB17 /* MIKMIDI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIKMIDI-prefix.pch"; sourceTree = "<group>"; };
-		0B19431A3E5EA784B841E2D7060E796E /* MIKMIDI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MIKMIDI.modulemap; sourceTree = "<group>"; };
+		0B19431A3E5EA784B841E2D7060E796E /* MIKMIDI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MIKMIDI.modulemap; sourceTree = "<group>"; };
 		0BCFEADDB238BFE9FAE076004D8636F1 /* MIKMIDIPitchBendChangeCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIPitchBendChangeCommand.m; path = Source/MIKMIDIPitchBendChangeCommand.m; sourceTree = "<group>"; };
 		0E76F8BB8937CEB5FB7878A92915290B /* MIKMIDIMetaTimeSignatureEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIMetaTimeSignatureEvent.m; path = Source/MIKMIDIMetaTimeSignatureEvent.m; sourceTree = "<group>"; };
 		0F4F8B1FCD29B13BCF05B27D6A9D9DA4 /* MIKMIDIChannelPressureCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIChannelPressureCommand.h; path = Source/MIKMIDIChannelPressureCommand.h; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		20D512599BF6274F6232E066DD20080D /* MIKMIDIDestinationEndpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIDestinationEndpoint.h; path = Source/MIKMIDIDestinationEndpoint.h; sourceTree = "<group>"; };
 		22E8C7AA3E6F3B359ACAFF697F1773C8 /* MIKMIDIMetaCuePointEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIMetaCuePointEvent.h; path = Source/MIKMIDIMetaCuePointEvent.h; sourceTree = "<group>"; };
 		274FC9A866CEE96EF460498171EB1D86 /* Pods-iHearChangesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iHearChangesSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		275CC86A29025FB934F41B35EBE428CE /* MIKMIDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIKMIDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		275CC86A29025FB934F41B35EBE428CE /* MIKMIDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MIKMIDI.framework; path = MIKMIDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		297593DC57AFC923B16BBEFEE1C023BB /* MIKMIDIEvent_SubclassMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIEvent_SubclassMethods.h; path = Source/MIKMIDIEvent_SubclassMethods.h; sourceTree = "<group>"; };
 		29A97AD97D1DB6ED9A4718893B9E4C45 /* MIKMIDISystemExclusiveCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDISystemExclusiveCommand.m; path = Source/MIKMIDISystemExclusiveCommand.m; sourceTree = "<group>"; };
 		2C7F5BFE7CBF5BF40CCA4580DC80004D /* MIKMIDIPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIPort.m; path = Source/MIKMIDIPort.m; sourceTree = "<group>"; };
@@ -271,12 +271,12 @@
 		901D4DA1943C426340BCD2DB7DF1D694 /* Pods-iHearChangesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iHearChangesSwift-dummy.m"; sourceTree = "<group>"; };
 		9086051536C86499FD27EC652EDEC561 /* MIKMIDISystemExclusiveCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDISystemExclusiveCommand.h; path = Source/MIKMIDISystemExclusiveCommand.h; sourceTree = "<group>"; };
 		938E644F8CDB15788EA6BC47EC531828 /* MIKMIDISystemMessageCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDISystemMessageCommand.h; path = Source/MIKMIDISystemMessageCommand.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946180E3662A6519B264C2B9E690F39C /* MIKMIDIMappingXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIMappingXMLParser.m; path = Source/MIKMIDIMappingXMLParser.m; sourceTree = "<group>"; };
 		94A48F1D6AE22F44C6BE4D44E2B5AE70 /* MIKMIDIProgramChangeEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIProgramChangeEvent.m; path = Source/MIKMIDIProgramChangeEvent.m; sourceTree = "<group>"; };
 		9667395AE1326720DEA09C10B47E1EFF /* Pods-iHearChangesSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iHearChangesSwift-resources.sh"; sourceTree = "<group>"; };
 		96DEB89BD0AAC2BC558E5BAF6BB68871 /* MIKMIDISourceEndpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDISourceEndpoint.h; path = Source/MIKMIDISourceEndpoint.h; sourceTree = "<group>"; };
-		99FCFC6618B6AE53C30E1F9BA4C2BA57 /* Pods_iHearChangesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHearChangesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FCFC6618B6AE53C30E1F9BA4C2BA57 /* Pods_iHearChangesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iHearChangesSwift.framework; path = "Pods-iHearChangesSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4039B27B14101C50D5D3E326749F80 /* MIKMIDIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIObject.m; path = Source/MIKMIDIObject.m; sourceTree = "<group>"; };
 		9A49238894AB70E9A7D634AFE476AECA /* MIKMIDIMetronome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIMetronome.h; path = Source/MIKMIDIMetronome.h; sourceTree = "<group>"; };
 		9B6B07F8C522674656672DEF7851A78A /* MIKMIDIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIUtilities.m; path = Source/MIKMIDIUtilities.m; sourceTree = "<group>"; };
@@ -315,7 +315,7 @@
 		CDB6200AC844433BD3D2807DF22E80F9 /* MIKMIDICompilerCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDICompilerCompatibility.h; path = Source/MIKMIDICompilerCompatibility.h; sourceTree = "<group>"; };
 		CE4092235155B95AA52270E87AA15E5A /* MIKMIDICommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDICommand.h; path = Source/MIKMIDICommand.h; sourceTree = "<group>"; };
 		D014E014C31F39D3CB8723421A67661C /* MIKMIDIMappingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIMappingManager.h; path = Source/MIKMIDIMappingManager.h; sourceTree = "<group>"; };
-		D03085E688BA9DFEE37A5F00C50EBADE /* Pods-iHearChangesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iHearChangesSwift.modulemap"; sourceTree = "<group>"; };
+		D03085E688BA9DFEE37A5F00C50EBADE /* Pods-iHearChangesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iHearChangesSwift.modulemap"; sourceTree = "<group>"; };
 		D1909E0FB2E522888E8636AA2F20BF38 /* MIKMIDIMetaSequenceEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDIMetaSequenceEvent.m; path = Source/MIKMIDIMetaSequenceEvent.m; sourceTree = "<group>"; };
 		D40765B581436BA8E38541E76E76CB5A /* MIKMIDIMetaTextEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MIKMIDIMetaTextEvent.h; path = Source/MIKMIDIMetaTextEvent.h; sourceTree = "<group>"; };
 		D77400064376A841BB7470D7C95C9AAB /* MIKMIDISourceEndpoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MIKMIDISourceEndpoint.m; path = Source/MIKMIDISourceEndpoint.m; sourceTree = "<group>"; };
@@ -538,6 +538,7 @@
 				DA9DBA556F110108DC896BE35444CB46 /* NSUIApplication+MIKMIDI.m */,
 				E3D7315938F9F0C82483FB95ED399B83 /* Support Files */,
 			);
+			name = MIKMIDI;
 			path = MIKMIDI;
 			sourceTree = "<group>";
 		};
