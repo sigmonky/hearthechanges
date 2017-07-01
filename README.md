@@ -60,4 +60,9 @@ The **Answer View** presents three sets of controls that enable the user to ente
 * The **chord quality controls** are a list of the various possible qualitis of a particular chord. These include -- major (M),minor (m), dominant 7 (7), diminished (dim), augmented (aug) and various extensions of these basic chord quality types.
 * The **accident controls** enable the user to identify if the current chord is a sharpened or flattened variant of the selected root. For example, a user would select the **"b"** control in conjunction with the **II** control to indicate a flatted second chord. To select a sharp four chord, the user would select the **"#"** control in conjunction with the **IV** control. 
 
+### Information View
+The **Informaton View** presents background music theory for the currently selected chord progression type and hints about its designated structure. 
+
+## Activity Selection Menu
+The last section of the **Main Display** is the **Activity Selection Menu**. It conists of a panel of controls that enable the user to fluidly move between the various user activity groups described above.
 
