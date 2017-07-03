@@ -14,6 +14,8 @@ extension MainDisplay:PlaybackPaneDelegate {
     
     func playSequence() {
         
+        lastSelectedIndexPath = nil
+        
         currentAppState.voiceStates = [false,true,true,true,true]
          
         currentMeasure = -1
@@ -21,6 +23,7 @@ extension MainDisplay:PlaybackPaneDelegate {
         midiManager.sequencer.stop()
         
         initializeMeasureStates()
+        
         updateMeasureStates()
         
         collectionView.reloadData()
@@ -31,8 +34,7 @@ extension MainDisplay:PlaybackPaneDelegate {
         if ( !startup ) {
             progression = sequenceTemplate?.generateProgression()
             updateMeasureStates()
-            if (currentViewController is PlaybackPane) {
-                
+            if (currentViewController is PlaybackPane) { 
                 let playbackPanel = self.currentViewController as?PlaybackPane
                 playbackPanel!.setSequenceLength(newLength: (progression?.chordProgression.count)!)
            
@@ -124,18 +126,6 @@ extension MainDisplay:PlaybackPaneDelegate {
         
     }
     
-    func updateMeasureStates() {
-        
-        for measure in 0..<progression!.chordProgression.count {
-            
-            if let currentChord = progression?.chordProgression[measure] as? Chord {
-                measureStates[measure].rightAnswer = currentChord.chordSymbol()
-                print("\(measureStates[measure].rightAnswer) \(currentChord.chordSymbol())")
-            }
-            
-        }
-        
-    }
 }
 
 

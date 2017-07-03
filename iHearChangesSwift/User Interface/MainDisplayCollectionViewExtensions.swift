@@ -12,26 +12,7 @@ import UIKit
 
 extension MainDisplay : UICollectionViewDataSource,UICollectionViewDelegate {
     
-    func initializeMeasureStates() -> Void {
-        measureStates = [
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false),
-            MeasureState(display:"?",rightAnswer:"IM",answerStatus:.unanswered,selected:false)
-        ]
-    }
+    
     
     func initializeCollectionView() -> Void  {
         

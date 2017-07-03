@@ -33,6 +33,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
     var currentMeasure = -1
     var lastCurrentMeasure = -1
     var measureStates = [MeasureState]()
+    let maxMeasures = 16
     var currentAnswer = ""
     var lastSelectedIndexPath:IndexPath?
     
@@ -279,7 +280,7 @@ extension MainDisplay {
                     sequenceTemplate?.homeKey = 60
                     progression = sequenceTemplate?.generateProgression()
                     lessonInstructions = (sequenceTemplate?.instructions)!
-                    updateMeasureStates()
+                    //updateMeasureStates()
                     
                 } else {
                     // example.txt not found!
@@ -290,6 +291,44 @@ extension MainDisplay {
             print("couldn't load the lesson")
         }
 
+    }
+    
+    func initializeMeasureStates() -> Void {
+        
+        let initialMeasure = MeasureState(display:"?",rightAnswer:"",answerStatus:.unanswered,selected:false)
+        
+        measureStates.removeAll()
+        
+        for _ in 0 ..< maxMeasures {
+            measureStates.append(initialMeasure)
+        }
+        
+    }
+    
+    func updateMeasureStates() {
+        
+        let revealedMeasure = 0
+        
+        for measure in 0..<progression!.chordProgression.count {
+            if let currentChord = progression?.chordProgression[measure] as? Chord {
+                
+                measureStates[measure].rightAnswer = currentChord.chordSymbol()
+                
+                if ( measure == Int(revealedMeasure) ) {
+                    measureStates[measure].display = currentChord.chordSymbol()
+                    measureStates[measure].answerStatus = .correct
+                } else {
+                    measureStates[measure].display = "?"
+                    measureStates[measure].answerStatus = .unanswered
+
+                }
+                
+                print("hmmmmm \(measureStates[measure].rightAnswer)")
+                
+            }
+            
+        }
+        
     }
 }
 
