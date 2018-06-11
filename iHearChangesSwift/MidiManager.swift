@@ -8,6 +8,7 @@
 
 import Foundation
 import MIKMIDI
+import AVFoundation
 
 class MidiManager {
     
@@ -19,10 +20,9 @@ class MidiManager {
     var sequence = MIKMIDISequence()
     var sequencer = MIKMIDISequencer()
     
+    
 
     func renderProgressionToMidi(piano:Player, bass:Player) {
-        
-        
         
         for aChord in piano.performance  {
             let firstChord = (aChord as! NSArray) as Array

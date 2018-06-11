@@ -95,6 +95,16 @@ let transpose = {$0 + offset}
 let renderedChord = theChord.members().map(transpose)
 print(renderedChord)
 
+let array = [1,2,3,4,5,6]
+print(array.startIndex)
+print(array.endIndex)
+
+let slice = Array(array[3...5])
+print(slice.startIndex)
+
+
+//execute search let isFound: Bool = numberList.binarySearch(forElement: 8)
+
 /* do {
  try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
  print("AVAudioSession Category Playback OK")

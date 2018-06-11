@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
        //UINavigationBar.appearance().barTintColor = UIColor.black
         UIApplication.shared.statusBarStyle = .lightContent
+        
+        let session = AVAudioSession.sharedInstance()
+        do {
+           /*try session.setCategory(AVAudioSessionCategoryPlayback, with: [AVAudioSessionCategoryOptions.mixWithOthers]) */
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+            try session.setActive(true)
+        } catch let error as NSError {
+            print("Failed to set the audio session category and mode: \(error.localizedDescription)")
+        }
         return true
     }
 

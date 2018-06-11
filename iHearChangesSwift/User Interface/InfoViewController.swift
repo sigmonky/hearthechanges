@@ -18,7 +18,8 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textView.text = infoText
+        //textView.text = infoText
+        
 
         // Do any additional setup after loading the view.
     }
@@ -29,7 +30,15 @@ class InfoViewController: UIViewController {
     }
     
     public func updateInfo() {
-         textView.text = infoText
+         //textView.text = infoText
+        if let rtfPath = Bundle.main.url(forResource: infoText, withExtension: "rtf") {
+            do {
+                let attributedStringWithRtf = try NSAttributedString(url: rtfPath, options: [NSDocumentTypeDocumentAttribute:NSRTFTextDocumentType], documentAttributes: nil)
+                textView.attributedText = attributedStringWithRtf
+            } catch {
+                print("No rtf content found!")
+            }
+        }
     }
     
 

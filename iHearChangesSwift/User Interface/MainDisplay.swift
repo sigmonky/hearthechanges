@@ -23,6 +23,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
     var currentLesson:String?
     
     let midiManager = MidiManager()
+    
 
     var currentAppState = AppState (
         voiceStates:[false,true,true,true,true],
@@ -33,7 +34,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
     var currentMeasure = -1
     var lastCurrentMeasure = -1
     var measureStates = [MeasureState]()
-    let maxMeasures = 16
+    let maxMeasures = 3000
     var currentAnswer = ""
     var lastSelectedIndexPath:IndexPath?
     
@@ -258,6 +259,7 @@ class MainDisplay: UIViewController, MIKMIDICommandScheduler {
                 
                 print("reloaded Cells = \(reloadedCells)")
                 self.collectionView.reloadItems(at: reloadedCells)
+                self.collectionView.scrollToItem(at: highlightedMeasure, at: .centeredVertically, animated: true)
                 self.lastCurrentMeasure = self.currentMeasure
                 
             }

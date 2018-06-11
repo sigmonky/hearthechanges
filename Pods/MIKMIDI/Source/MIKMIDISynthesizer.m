@@ -153,6 +153,8 @@
 								   0,
 								   &instrumentData,
 								   sizeof(instrumentData));
+        
+       
 		
 		if (err != noErr) {
 			*error = [NSError errorWithDomain:NSOSStatusErrorDomain code:err userInfo:nil];
@@ -175,6 +177,7 @@
 							   kMusicDeviceProperty_SoundBankFSRef,
 							   kAudioUnitScope_Global, 0,
 							   &fsRef, sizeof(fsRef));
+     
 	if (err != noErr) {
 		*error = [NSError errorWithDomain:NSOSStatusErrorDomain code:err userInfo:nil];
 		return NO;

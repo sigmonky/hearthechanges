@@ -8,7 +8,7 @@
 		}],
     [{
         "function":"dominant",
-        "subs":[[7,"maj"]],
+        "subs":[[7,"maj"],[7,"dom"]],
         "extensions":[]
     }],
      [{

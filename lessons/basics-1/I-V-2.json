@@ -16,12 +16,12 @@
     "progression":[
                    {"options":[1],"beats":4},
                    {"options":[0],"beats":4},
-                   {"options":[1],"beats":4},
                    {"options":[0,1],"beats":4},
-                   {"options":[1],"beats":4},
                    {"options":[0,1],"beats":4},
-                   {"options":[1],"beats":4},
+                   {"options":[0,1],"beats":4},
+                   {"options":[0,1],"beats":4},
+                   {"options":[0,1],"beats":4},
                    {"options":[0,1],"beats":4}
-                   ]
-	
+                   ],
+    "instructions":"I-V-2"	
 }

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE10AF8A1F152F6F00FA9FD4 /* I-V-2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE10AF891F152F6F00FA9FD4 /* I-V-2.rtf */; };
+		BE10AF8C1F15810300FA9FD4 /* I-V-3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE10AF8B1F15810300FA9FD4 /* I-V-3.rtf */; };
+		BE10AF8E1F1583FE00FA9FD4 /* I-V-4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE10AF8D1F1583FE00FA9FD4 /* I-V-4.rtf */; };
 		BE6C6C1C1F054BE100EBF61A /* rhodes_73.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = BE6C6C1B1F054BE100EBF61A /* rhodes_73.sf2 */; };
+		BECE95DF1F1447CC009E7312 /* I-V-1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BECE95DE1F1447CC009E7312 /* I-V-1.rtf */; };
 		D329D9FE1DDF7A9C0080D74F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329D9FD1DDF7A9C0080D74F /* AppDelegate.swift */; };
 		D329DA051DDF7A9C0080D74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D329DA041DDF7A9C0080D74F /* Assets.xcassets */; };
 		D329DA081DDF7A9C0080D74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329DA061DDF7A9C0080D74F /* LaunchScreen.storyboard */; };
@@ -104,7 +108,11 @@
 		2BE96FAF8DA874D54452A9FB /* Pods_iHearChangesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHearChangesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E6A4C8BFF66A69777982AD /* Pods-iHearChangesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHearChangesSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHearChangesSwift/Pods-iHearChangesSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		A2FE4BA36AB27B9693A26FD6 /* Pods-iHearChangesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHearChangesSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHearChangesSwift/Pods-iHearChangesSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BE10AF891F152F6F00FA9FD4 /* I-V-2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "I-V-2.rtf"; path = "lessons/basics-1/I-V-2.rtf"; sourceTree = "<group>"; };
+		BE10AF8B1F15810300FA9FD4 /* I-V-3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "I-V-3.rtf"; path = "lessons/basics-1/I-V-3.rtf"; sourceTree = "<group>"; };
+		BE10AF8D1F1583FE00FA9FD4 /* I-V-4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "I-V-4.rtf"; path = "lessons/basics-1/I-V-4.rtf"; sourceTree = "<group>"; };
 		BE6C6C1B1F054BE100EBF61A /* rhodes_73.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhodes_73.sf2; sourceTree = "<group>"; };
+		BECE95DE1F1447CC009E7312 /* I-V-1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "I-V-1.rtf"; path = "lessons/basics-1/I-V-1.rtf"; sourceTree = "<group>"; };
 		BEF3E2981E70BDC1007E33FE /* Experiments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Experiments.playground; path = ../Experiments.playground; sourceTree = "<group>"; };
 		D329D9FA1DDF7A9C0080D74F /* iHearChangesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHearChangesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D329D9FD1DDF7A9C0080D74F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -347,6 +355,14 @@
 		D38D4B281F06BD45006EF062 /* basics-1 */ = {
 			isa = PBXGroup;
 			children = (
+				D38D4B361F06BD75006EF062 /* I-V-1.json */,
+				BECE95DE1F1447CC009E7312 /* I-V-1.rtf */,
+				D38D4B371F06BD75006EF062 /* I-V-2.json */,
+				BE10AF891F152F6F00FA9FD4 /* I-V-2.rtf */,
+				D38D4B381F06BD75006EF062 /* I-V-3.json */,
+				BE10AF8B1F15810300FA9FD4 /* I-V-3.rtf */,
+				D38D4B391F06BD75006EF062 /* I-V-4.json */,
+				BE10AF8D1F1583FE00FA9FD4 /* I-V-4.rtf */,
 				D38D4B291F06BD75006EF062 /* I-IV-1.json */,
 				D38D4B2A1F06BD75006EF062 /* I-IV-2.json */,
 				D38D4B2B1F06BD75006EF062 /* I-IV-3.json */,
@@ -360,10 +376,6 @@
 				D38D4B331F06BD75006EF062 /* I-IV-V-7.json */,
 				D38D4B341F06BD75006EF062 /* I-IV-V-8.json */,
 				D38D4B351F06BD75006EF062 /* I-IV-V-9.json */,
-				D38D4B361F06BD75006EF062 /* I-V-1.json */,
-				D38D4B371F06BD75006EF062 /* I-V-2.json */,
-				D38D4B381F06BD75006EF062 /* I-V-3.json */,
-				D38D4B391F06BD75006EF062 /* I-V-4.json */,
 			);
 			name = "basics-1";
 			sourceTree = "<group>";
@@ -597,6 +609,7 @@
 				D38D4B7D1F06C03E006EF062 /* aliceinwonderland.json in Resources */,
 				D38D4B571F06BDCC006EF062 /* secondaryDominants1.json in Resources */,
 				D329DA081DDF7A9C0080D74F /* LaunchScreen.storyboard in Resources */,
+				BE10AF8A1F152F6F00FA9FD4 /* I-V-2.rtf in Resources */,
 				D38D4B7C1F06C03E006EF062 /* aintmisbehavin.json in Resources */,
 				D38D4B811F06C03E006EF062 /* atrain.json in Resources */,
 				D38D4B851F06C06C006EF062 /* minorfolk.json in Resources */,
@@ -610,10 +623,12 @@
 				D38D4B801F06C03E006EF062 /* angeleyes.json in Resources */,
 				D38D4B711F06BF82006EF062 /* template.json in Resources */,
 				D38D4B4A1F06BD75006EF062 /* I-V-4.json in Resources */,
+				BECE95DF1F1447CC009E7312 /* I-V-1.rtf in Resources */,
 				D38D4B671F06BE5D006EF062 /* keymodulations-1.json in Resources */,
 				D38D4B681F06BE5D006EF062 /* keymodulations-2.json in Resources */,
 				D38D4B501F06BD9A006EF062 /* I-IV-V-1subs.json in Resources */,
 				D38D4B441F06BD75006EF062 /* I-IV-V-7.json in Resources */,
+				BE10AF8C1F15810300FA9FD4 /* I-V-3.rtf in Resources */,
 				D38D4B3A1F06BD75006EF062 /* I-IV-1.json in Resources */,
 				D38D4B601F06BE02006EF062 /* cadences2.json in Resources */,
 				D38D4B3E1F06BD75006EF062 /* I-IV-V-1.json in Resources */,
@@ -628,6 +643,7 @@
 				D38D4B411F06BD75006EF062 /* I-IV-V-4.json in Resources */,
 				D38D4B431F06BD75006EF062 /* I-IV-V-6.json in Resources */,
 				D38D4B3F1F06BD75006EF062 /* I-IV-V-2.json in Resources */,
+				BE10AF8E1F1583FE00FA9FD4 /* I-V-4.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,7 +826,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -854,7 +870,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -872,6 +888,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EP95Q9Q2HM;
 				INFOPLIST_FILE = iHearChangesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fakeancient.iHearChangesSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -891,6 +908,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EP95Q9Q2HM;
 				INFOPLIST_FILE = iHearChangesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fakeancient.iHearChangesSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
